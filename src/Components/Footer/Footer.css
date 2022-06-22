@@ -1,0 +1,17 @@
+.content {
+  text-align: center;
+  margin: 10px auto;
+  width: 250px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+a {
+  color: #5a809d;
+  text-decoration: none;
+  transition: all 200ms ease;
+}
+
+a:hover {
+  color: #ff4c29;
+}
