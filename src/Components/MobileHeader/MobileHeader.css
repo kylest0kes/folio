@@ -1,0 +1,26 @@
+.nav-bar {
+  height: 80px;
+  width: 100%;
+  background-color: #082032;
+}
+
+.logo {
+  float: left;
+  color: #ff4c29;
+  font-size: 20px;
+  margin: 17px 50px;
+  border: 1px solid #ff4c29;
+  border-radius: 8px;
+  padding: 10px;
+  transition: all 200ms ease;
+}
+
+.logo:hover {
+  background-color: #334756;
+  cursor: pointer;
+}
+
+.hamburger {
+    float: right;
+}
+
