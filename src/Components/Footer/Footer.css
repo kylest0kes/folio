@@ -6,12 +6,12 @@
   text-decoration: none;
 }
 
-a {
+.footer-a {
   color: #5a809d;
   text-decoration: none;
   transition: all 200ms ease;
 }
 
-a:hover {
+.footer-a:hover {
   color: #ff4c29;
 }

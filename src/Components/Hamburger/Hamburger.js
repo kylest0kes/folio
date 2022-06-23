@@ -8,24 +8,18 @@ const Hamburger = () => {
   return (
     <div>
       <button
-        className='hamburger-button'
+        className={`hamburger-button ${isOpen ? "open" : "close"}`}
+        onClick={() => setIsOpen(!isOpen)}
       />
-      {/* <div className={`panel ${isOpen ? "open" : "close"}`}>
-        <ul>
-          <li>
-            <a href="#">You</a>
-          </li>
-          <li>
-            <a href="#">Look</a>
-          </li>
-          <li>
-            <a href="#">Nice</a>
-          </li>
-          <li>
-            <a href="#">Today</a>
-          </li>
+      <div className={`panel ${isOpen ? "open" : "close"}`}>
+        <ul className="list">
+        <li className='list-li'><a className='list-a' href="="><span className="num">1.</span> ABOUT</a></li>
+            <li className='list-li'><a className='list-a' href="="><span className="num">2.</span> WORK</a></li>
+            <li className='list-li'><a className='list-a' href="="><span className="num">3.</span> PROJECTS</a></li>
+            <li className='list-li'><a className='list-a' href="="><span className="num">4.</span> CONTACT</a></li>
+            <li className='list-li'><a className="list-a list-res" href="=">RESUME</a></li>
         </ul>
-      </div> */}
+      </div>
     </div>
   );
 };

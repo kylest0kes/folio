@@ -26,7 +26,7 @@
   padding-right: 50px;
 }
 
-.nav-bar li {
+.nav-bar-li {
   display: inline;
   margin: auto 5px;
 }
@@ -35,7 +35,7 @@
   color: #ff4c29;
 }
 
-.nav-bar a {
+.nav-bar-a {
   text-decoration: none;
   color: #5a809d;
   font-weight: 500;
@@ -45,7 +45,7 @@
   border-radius: 8px;
 }
 
-.nav-bar a:hover {
+.nav-bar-a:hover {
   color: #ff4c29;
 }
 

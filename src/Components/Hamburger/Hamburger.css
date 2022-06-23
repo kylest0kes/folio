@@ -18,11 +18,14 @@
 }
 .hamburger-button.open {
   background-image: url(https://res.cloudinary.com/dnpyq0ocz/image/upload/v1588441892/icon-hamburger-close.svg);
+  width: 37px;
+  height: 37px;
+  margin-top: 21px;
+  margin-right: 57px;
 }
 .panel {
-  max-width: 500px;
-  background-color: #455073;
-  background-size: 117px 188px;
+  max-width: 40%;
+  background: #142a3a;
   transition: all 0.4s cubic-bezier(0.42, 0, 0.34, 1.01);
   position: fixed;
   z-index: 5;
@@ -39,23 +42,33 @@
   visibility: visible;
   width: 100%;
   right: 0;
-  opacity: 1;
+  opacity: .5;
 }
-ul {
+.list {
   margin: auto 0 auto auto;
-}
-ul li {
   list-style: none;
-  font-size: 2em;
+}
+.list-li {
   text-align: right;
+  margin: 25px auto;
 }
-ul li + li {
-  margin-top: 1em;
-}
-ul li a {
+.list-a {
+  font-size: 24px;
+  font-weight: 500;
   text-decoration: none;
-  color: white;
+  color: #5a809d;
+  transition: all 200ms ease;
 }
-ul li a:hover {
-  color: #7a6ffb;
+.list-a:hover {
+  color: #ff4c29;
+}
+.list-res {
+  color: #ff4c29;
+  border: 1px solid #ff4c29;
+  border-radius: 8px;
+  padding: 3px 10px 5px 10px;
+}
+.list-res:hover {
+  transition: all 200ms ease;
+  background-color: #2C394B;
 }
