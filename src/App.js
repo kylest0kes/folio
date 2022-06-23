@@ -6,12 +6,12 @@ import MobileHeader from './Components/MobileHeader/MobileHeader';
 
 
 function App() {
-  const isMobile = useMediaQuery({ query: '(min-width: 860px)'});
+  const isDesktop = useMediaQuery({ query: '(min-width: 860px)'});
 
   return (
     <div className="App">
-      {isMobile && <Header />}
-      {!isMobile && <MobileHeader />}
+      {isDesktop && <Header />}
+      {!isDesktop && <MobileHeader />}
       <Footer />
     </div>
   );

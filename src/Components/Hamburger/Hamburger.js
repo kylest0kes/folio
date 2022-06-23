@@ -1,23 +1,57 @@
 import React, { useState } from "react";
+import useClickOutside from "../../Hooks/useClickOutside";
 
-import './Hamburger.css';
+import "./Hamburger.css";
 
 const Hamburger = () => {
+
   const [isOpen, setIsOpen] = useState(false);
 
+  let domNode = useClickOutside(() => {
+    setIsOpen(false);
+  });
+
+  const hamburgerHandler = () => {
+    if (!isOpen) {
+      setIsOpen(true);
+    } else {
+      setIsOpen(false);
+    }
+  };
+
   return (
-    <div>
+    <div ref={domNode}>
       <button
         className={`hamburger-button ${isOpen ? "open" : "close"}`}
-        onClick={() => setIsOpen(!isOpen)}
+        onClick={hamburgerHandler}
       />
-      <div className={`panel ${isOpen ? "open" : "close"}`}>
+      <div className={`panel ${isOpen ? "open" : "close"}`} >
         <ul className="list">
-        <li className='list-li'><a className='list-a' href="="><span className="num">1.</span> ABOUT</a></li>
-            <li className='list-li'><a className='list-a' href="="><span className="num">2.</span> WORK</a></li>
-            <li className='list-li'><a className='list-a' href="="><span className="num">3.</span> PROJECTS</a></li>
-            <li className='list-li'><a className='list-a' href="="><span className="num">4.</span> CONTACT</a></li>
-            <li className='list-li'><a className="list-a list-res" href="=">RESUME</a></li>
+          <li className="list-li">
+            <a className="list-a" href="=">
+              <span className="num">1.</span> ABOUT
+            </a>
+          </li>
+          <li className="list-li">
+            <a className="list-a" href="=">
+              <span className="num">2.</span> WORK
+            </a>
+          </li>
+          <li className="list-li">
+            <a className="list-a" href="=">
+              <span className="num">3.</span> PROJECTS
+            </a>
+          </li>
+          <li className="list-li">
+            <a className="list-a" href="=">
+              <span className="num">4.</span> CONTACT
+            </a>
+          </li>
+          <li className="list-li">
+            <a className="list-a list-res" href="=">
+              RESUME
+            </a>
+          </li>
         </ul>
       </div>
     </div>

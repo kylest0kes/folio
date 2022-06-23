@@ -25,7 +25,7 @@
 }
 .panel {
   max-width: 40%;
-  background: #142a3a;
+  background: #0c2b43;
   transition: all 0.4s cubic-bezier(0.42, 0, 0.34, 1.01);
   position: fixed;
   z-index: 5;
@@ -53,10 +53,10 @@
   margin: 25px auto;
 }
 .list-a {
-  font-size: 24px;
+  color: #5a809d;
+  font-size: 18px;
   font-weight: 500;
   text-decoration: none;
-  color: #5a809d;
   transition: all 200ms ease;
 }
 .list-a:hover {

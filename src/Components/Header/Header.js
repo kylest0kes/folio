@@ -3,7 +3,6 @@ import React from 'react';
 import './Header.css';
 
 const Header = () => {
-  // 860px is the breakpoint to switch to hamburger menu
   return (
     <div className="nav-bar">
         <span className="logo">KS</span>
