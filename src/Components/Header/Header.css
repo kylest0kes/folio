@@ -58,3 +58,9 @@
 .resume:hover {
   background-color: #334756;
 }
+
+@media (max-width: 530px) {
+  .nav-bar ul {
+    padding-right: 0px;
+  }
+}

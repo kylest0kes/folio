@@ -46,6 +46,7 @@
 }
 .list {
   margin: auto 0 auto auto;
+  padding-top: 66%;
   list-style: none;
 }
 .list-li {
@@ -71,4 +72,10 @@
 .list-res:hover {
   transition: all 200ms ease;
   background-color: #2C394B;
+}
+
+@media (max-width: 530px) {
+  .list {
+    padding-left: 0;
+  }
 }
