@@ -4,6 +4,8 @@ import Header from "./Components/Header/Header";
 import { useMediaQuery } from "react-responsive";
 import MobileHeader from "./Components/MobileHeader/MobileHeader";
 import Grid from "@mui/material/Grid";
+import LeftSide from "./Sections/Left_Side/LeftSide";
+import RightSide from "./Sections/Right_Side/RightSide";
 
 function App() {
   const isDesktop = useMediaQuery({ query: "(min-width: 860px)" });
@@ -13,23 +15,40 @@ function App() {
       {isDesktop && <Header />}
       {!isDesktop && <MobileHeader />}
       <Grid container spacing={0}>
-        <Grid item xs={1}>
-          <div className='side'>
-            <h1>alsdkfj</h1>
-          </div>
+        <Grid alignItems="stretch" item xs={1}>
+          <LeftSide />
         </Grid>
         <Grid item xs={10}>
-          <div className='middle'>
-            <h1>alsdkfj</h1>
-          </div>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <Footer />
         </Grid>
-        <Grid item xs={1}>
-          <div className='side'>
-            <h1>alsdkfj</h1>
-          </div>
+        <Grid alignItems="stretch" item xs={1}>
+            <RightSide />
         </Grid>
       </Grid>
-      <Footer />
     </div>
   );
 }

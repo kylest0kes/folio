@@ -4,14 +4,22 @@ body {
   padding: 0;
   background-color: #082032;
   font-family: monospace;
+  height: 100%;
 }
 
-.side {
-  height: 100%;
-  background-color: green;
+::-webkit-scrollbar {
+  width: 10px;
 }
 
-.middle {
-  height: 100%;
-  background-color: yellow;
+::-webkit-scrollbar-track {
+  background: #2C394B; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334756;
+  border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FF4C29; 
 }

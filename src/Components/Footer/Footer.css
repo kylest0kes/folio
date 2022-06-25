@@ -1,13 +1,9 @@
 .content {
   text-align: center;
-  margin: 10px auto;
+  margin: 15px auto;
   width: 250px;
   line-height: 20px;
   text-decoration: none;
-}
-
-footer {
-  margin-top: 25px;
 }
 
 .footer-a {

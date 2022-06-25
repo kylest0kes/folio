@@ -1,0 +1,10 @@
+.email-container {
+  height: 100vh;
+}
+
+.email {
+  color: #ff4c29;
+  text-align: center;
+  transform: rotate(270deg);
+  bottom: 0;
+}
