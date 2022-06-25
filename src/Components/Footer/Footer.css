@@ -6,6 +6,10 @@
   text-decoration: none;
 }
 
+footer {
+  margin-top: 25px;
+}
+
 .footer-a {
   color: #5a809d;
   text-decoration: none;
