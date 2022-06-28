@@ -15,7 +15,7 @@ function App() {
       {isDesktop && <Header />}
       {!isDesktop && <MobileHeader />}
       <Grid container spacing={0}>
-        <Grid alignItems="stretch" item xs={1}>
+        <Grid item xs={1}>
           <LeftSide />
         </Grid>
         <Grid item xs={10}>
@@ -43,9 +43,20 @@ function App() {
           <h1>lskdfjalsdkfj</h1>
           <h1>lskdfjalsdkfj</h1>
           <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
+          <h1>lskdfjalsdkfj</h1>
           <Footer />
         </Grid>
-        <Grid alignItems="stretch" item xs={1}>
+        <Grid item xs={1} className='rs'>
             <RightSide />
         </Grid>
       </Grid>

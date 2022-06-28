@@ -1,8 +1,16 @@
-import React from 'react'
+import React from 'react';
+
+import './LeftSide.css';
 
 const LeftSide = () => {
   return (
-    <div>LeftSide</div>
+    <div className='ls-container'>
+      <ul className='social-list'>
+        <li className='social-li'><p>LinkedIn</p></li>
+        <li className='social-li'><p>Github</p></li>
+        <li className='social-li'><p>Other</p></li>
+      </ul>
+    </div>
   )
 }
 
