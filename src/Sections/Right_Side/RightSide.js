@@ -5,7 +5,7 @@ import './RightSide.css';
 const RightSide = () => {
   return (
     <div className='email-container'>
-        <h3 className='email'>kylestokes1551@gmail.com</h3>
+        <a href='mailto: kylestokes1551@gmail.com' className='email'>kylestokes1551@gmail.com</a>
     </div>
   )
 }

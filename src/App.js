@@ -18,7 +18,7 @@ function App() {
         <Grid item xs={1}>
           <LeftSide />
         </Grid>
-        <Grid item xs={10}>
+        <Grid item xs={10} className='center-section'>
           <h1>lskdfjalsdkfj</h1>
           <h1>lskdfjalsdkfj</h1>
           <h1>lskdfjalsdkfj</h1>

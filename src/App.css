@@ -23,6 +23,10 @@ body {
   background: #FF4C29; 
 }
 
+.center-section {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 .rs {
   height:100vh;

@@ -5,6 +5,15 @@
     width: 8.3%;
 }
 
-.text {
+.social-list {
+    list-style: none;
+    padding: 0;
     text-align: center;
+    position: absolute;
+    bottom: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
+

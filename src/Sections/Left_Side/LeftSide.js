@@ -8,7 +8,7 @@ const LeftSide = () => {
       <ul className='social-list'>
         <li className='social-li'><p>LinkedIn</p></li>
         <li className='social-li'><p>Github</p></li>
-        <li className='social-li'><p>Other</p></li>
+        <li className='social-li'><p>Email</p></li>
       </ul>
     </div>
   )
