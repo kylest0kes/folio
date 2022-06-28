@@ -1,6 +1,5 @@
 .email-container {
   height: 100vh;
-  background-color: aqua;
   position: fixed;
   right: 0;
   width: 8.3%;
@@ -14,8 +13,9 @@
   transition: all 200ms ease;
   transform: rotate(270deg);
   position: absolute;
-  bottom: 210px;
-
+  bottom: 165px;
+  width: 100%;
+  font-size: 15px;
 }
 
 .email:hover {
