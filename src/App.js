@@ -7,6 +7,7 @@ import Grid from "@mui/material/Grid";
 import LeftSide from "./Sections/Left_Side/LeftSide";
 import RightSide from "./Sections/Right_Side/RightSide";
 import About from "./Sections/About/About";
+import AboutMe from "./Sections/AboutMe/AboutMe";
 
 function App() {
   const isDesktop = useMediaQuery({ query: "(min-width: 860px)" });
@@ -21,6 +22,7 @@ function App() {
         </Grid>
         <Grid item xs={10} className='center-section'>
           <About />
+          <AboutMe />
           <Footer />
         </Grid>
         <Grid item xs={1} className='rs'>
