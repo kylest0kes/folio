@@ -1,0 +1,33 @@
+.about-card {
+    /* background-color: aqua; */
+}
+
+.about-info {
+    padding: 15px 15px;
+}
+
+.about-info h2 {
+    color: #FF4C29;
+    margin-bottom: 5px;
+}
+
+.name {
+    color: #5a809d;
+    font-size: 40px;
+    margin: 10px 0px;
+}
+
+.below-name {
+    color: #3c5e78;
+    font-size: 40px;
+    margin: 10px 0px;
+}
+
+.about-text-sec {
+    width: 50%;
+}
+
+.about-text {
+    margin-top: 10px;
+    color: #3c5e78;
+}

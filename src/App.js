@@ -6,6 +6,7 @@ import MobileHeader from "./Components/MobileHeader/MobileHeader";
 import Grid from "@mui/material/Grid";
 import LeftSide from "./Sections/Left_Side/LeftSide";
 import RightSide from "./Sections/Right_Side/RightSide";
+import About from "./Sections/About/About";
 
 function App() {
   const isDesktop = useMediaQuery({ query: "(min-width: 860px)" });
@@ -19,41 +20,7 @@ function App() {
           <LeftSide />
         </Grid>
         <Grid item xs={10} className='center-section'>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
-          <h1>lskdfjalsdkfj</h1>
+          <About />
           <Footer />
         </Grid>
         <Grid item xs={1} className='rs'>

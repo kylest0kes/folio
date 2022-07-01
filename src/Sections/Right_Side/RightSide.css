@@ -20,6 +20,7 @@
 
 .email:hover {
   color: #ff4c29;
+  font-size: 16px;
 }
 
 .email:visited {

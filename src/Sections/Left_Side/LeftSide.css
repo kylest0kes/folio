@@ -8,7 +8,7 @@
     list-style: none;
     padding: 0;
     position: absolute;
-    bottom: 100px;
+    bottom: 104px;
     width: 100%;
     
 }
@@ -23,11 +23,12 @@
 
 .social-icons {
     color: #5a809d;
-
+    transition: all 200ms ease;
 }
 
 .social-icons:hover {
     color: #ff4c29;
+    font-size: 22px;
 }
 
 .social-icons:visited {
