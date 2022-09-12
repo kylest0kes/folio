@@ -47,6 +47,7 @@
 
 .nav-bar-a:hover {
   color: #ff4c29;
+  cursor: pointer;
 }
 
 .resume {

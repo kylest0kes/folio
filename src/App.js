@@ -21,35 +21,36 @@ function App() {
     <div className="App">
       {isDesktop && <Header />}
       {!isDesktop && <MobileHeader />}
-      <Grid container spacing={0}>
-        <Grid item xs={1}>
-          <LeftSide />
+      <div className="grid-container">
+        <Grid container spacing={0}>
+          <Grid item xs={1}>
+            <LeftSide />
+          </Grid>
+          <Grid item xs={10} className='center-section'>
+            <div className="app-center-container">
+              <section className="app-about-section">
+                <About />
+              </section>
+              <section className="app-about-me-section">
+                <AboutMe />
+              </section>
+              <section className="app-work-section">
+                <Work />
+              </section>
+              <section className="app-projects-section">
+                <Projects />
+              </section>
+              <section className="app-contact-section">
+                <Contact />
+              </section>
+            </div>
+            <Footer />
+          </Grid>
+          <Grid item xs={1} className='rs'>
+              <RightSide />
+          </Grid>
         </Grid>
-        <Grid item xs={10} className='center-section'>
-          <div className="app-center-container">
-            <section className="app-about-section">
-              <About />
-            </section>
-            <section className="app-about-me-section">
-              <AboutMe />
-            </section>
-            <section className="app-work-section">
-              <Work />
-            </section>
-            <section className="app-projects-section">
-              <Projects />
-            </section>
-            <section className="app-contact-section">
-              <Contact />
-            </section>
-
-          </div>
-          <Footer />
-        </Grid>
-        <Grid item xs={1} className='rs'>
-            <RightSide />
-        </Grid>
-      </Grid>
+      </div>
     </div>
   );
 }
