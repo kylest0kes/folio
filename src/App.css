@@ -33,3 +33,14 @@ body {
   position: fixed;
   right: 0;
 }
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-about-section {
+  margin-top: -80px;
+}

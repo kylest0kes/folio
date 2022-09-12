@@ -13,7 +13,7 @@
   transition: all 200ms ease;
   transform: rotate(270deg);
   position: absolute;
-  bottom: 165px;
+  bottom: 160px;
   width: 100%;
   font-size: 15px;
 }

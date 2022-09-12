@@ -1,36 +1,48 @@
 .about-card {
-    height: calc(100vh - 80px);
-    position: relative;
+  padding-bottom: 20px;
 }
 
 .about-info {
-    padding: 15px 15px;
-    position: absolute;
-    top: 25%;
+  padding: 15px 15px;
 }
 
 .about-info h2 {
-    color: #FF4C29;
-    margin-bottom: 15px;
+  color: #ff4c29;
+  margin-bottom: 15px;
 }
 
 .name {
-    color: #5a809d;
-    font-size: 40px;
-    margin: 20px 0px;
+  color: #5a809d;
+  font-size: 40px;
+  margin: 20px 0px;
 }
 
 .below-name {
-    color: #3c5e78;
-    font-size: 40px;
-    margin: 20px 0px;
+  color: #3c5e78;
+  font-size: 40px;
+  margin: 20px 0px;
 }
 
 .about-text-sec {
-    width: 50%;
+  width: 50%;
+  margin-bottom: 15px;
 }
 
 .about-text {
-    margin-top: 20px;
-    color: #3c5e78;
+  margin-top: 20px;
+  color: #3c5e78;
+}
+
+.about-btn {
+  color: #ff4c29;
+  border: 1px solid #ff4c29;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 15px;
+  transition: all 200ms ease;
+}
+
+.about-btn:hover {
+  background-color: #334756;
 }

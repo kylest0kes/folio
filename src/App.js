@@ -1,13 +1,18 @@
-import "./App.css";
-import Footer from "./Components/Footer/Footer";
-import Header from "./Components/Header/Header";
 import { useMediaQuery } from "react-responsive";
+
+import Header from "./Components/Header/Header";
 import MobileHeader from "./Components/MobileHeader/MobileHeader";
 import Grid from "@mui/material/Grid";
 import LeftSide from "./Sections/Left_Side/LeftSide";
-import RightSide from "./Sections/Right_Side/RightSide";
 import About from "./Sections/About/About";
 import AboutMe from "./Sections/AboutMe/AboutMe";
+import Work from "./Sections/Work/Work";
+import Projects from "./Sections/Projects/Projects";
+import Contact from "./Sections/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
+import RightSide from "./Sections/Right_Side/RightSide";
+
+import "./App.css";
 
 function App() {
   const isDesktop = useMediaQuery({ query: "(min-width: 860px)" });
@@ -21,8 +26,24 @@ function App() {
           <LeftSide />
         </Grid>
         <Grid item xs={10} className='center-section'>
-          <About />
-          <AboutMe />
+          <div className="app-center-container">
+            <section className="app-about-section">
+              <About />
+            </section>
+            <section className="app-about-me-section">
+              <AboutMe />
+            </section>
+            <section className="app-work-section">
+              <Work />
+            </section>
+            <section className="app-projects-section">
+              <Projects />
+            </section>
+            <section className="app-contact-section">
+              <Contact />
+            </section>
+
+          </div>
           <Footer />
         </Grid>
         <Grid item xs={1} className='rs'>
