@@ -1,0 +1,37 @@
+.bio-header {
+    margin-bottom: 45px;
+    color: #FF4C29;
+    font-size: 25px;
+}
+
+.bio-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.bio-card-img {
+  float: right;
+  width: 30%;
+  min-width: 106px;
+}
+
+.bio-card-text {
+    width: 60%;
+    word-wrap: break-word;
+    font-size: 18px;
+    color: #3c5e78;
+}
+
+.bio-card-text h2 > small {
+  display: block;
+  font-size: 70%;
+}
+
