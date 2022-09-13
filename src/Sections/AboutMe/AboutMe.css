@@ -25,14 +25,28 @@
 }
 
 .bio-card-text {
-  max-width: 60%;
+  max-width: 55%;
   word-wrap: break-word;
-  font-size: 18px;
+  font-size: 16px;
   color: #3c5e78;
-  margin-right: 20px;
+  margin-right: 30px;
 }
 
 .bio-card-text h2 > small {
   display: block;
   font-size: 70%;
+}
+
+.tech {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  list-style: none;
+}
+
+.tech li::before {
+  content: "\25bc";
+  transform: rotate(100deg);
+  padding-right: 10px;
+  color: #ff4c29;
 }
