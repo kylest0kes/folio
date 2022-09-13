@@ -1,7 +1,7 @@
 .bio-header {
-    margin-bottom: 45px;
-    color: #FF4C29;
-    font-size: 25px;
+  margin-bottom: 45px;
+  color: #ff4c29;
+  font-size: 25px;
 }
 
 .bio-card {
@@ -21,17 +21,20 @@
   float: right;
   width: 30%;
   min-width: 106px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  outline: 2px solid #ff4c29;
+  outline-offset: 10px;
 }
 
 .bio-card-text {
-    width: 60%;
-    word-wrap: break-word;
-    font-size: 18px;
-    color: #3c5e78;
+  width: 60%;
+  word-wrap: break-word;
+  font-size: 18px;
+  color: #3c5e78;
 }
 
 .bio-card-text h2 > small {
   display: block;
   font-size: 70%;
 }
-

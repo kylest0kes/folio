@@ -6,16 +6,16 @@ import "./AboutMe.css";
 const AboutMe = () => {
   return (
     <div className="bio-container">
-          <h1 className="bio-header">1. About Me----------------</h1>
+          <h1 className="bio-header">1. About Me...</h1>
       <div class="bio-card">
         <div class="bio-card-text">
           <span class="about-me-desc">
-           Hello there! My name is Kyle and I blah blah blah blah blah skljdf asdf fd fdfasd fasdf 
+           Hello and welcome! My name is Kyle and I blah blah blah blah blah skljdf asdf fd fdfasd fasdf 
            <br/><br/>
            Blah blah
            <br/><br/>
            Tech I have been working with recently:
-           
+
           </span>
         </div>
 
