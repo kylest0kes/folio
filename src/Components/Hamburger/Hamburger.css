@@ -24,7 +24,7 @@
   margin-right: 57px;
 }
 .panel {
-  max-width: 40%;
+  max-width: 30%;
   background: #0c2b43;
   transition: all 0.4s cubic-bezier(0.42, 0, 0.34, 1.01);
   position: fixed;
@@ -42,7 +42,7 @@
   visibility: visible;
   width: 100%;
   right: 0;
-  opacity: .5;
+  opacity: .75;
 }
 .list {
   margin: auto 0 auto auto;
