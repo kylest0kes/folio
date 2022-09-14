@@ -1,0 +1,65 @@
+.work-container {
+  width: 100%;
+}
+
+.work-header {
+  color: #ff4c29;
+  font-size: 25px;
+}
+
+.tab-area {
+  margin-top: 125px;
+}
+
+.tab-section {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 6px 8px 4px -4px rgba(0, 0, 0, 0.4);
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+}
+.tab-section:last-of-type .tab-content {
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+}
+
+.tab-header {
+  text-align: center;
+  display: block;
+  font-size: 1.6em;
+  position: relative;
+  z-index: 2;
+  background-color: #314d62;
+  color: #ff4c29;
+  padding: 0.5em;
+  border-top: 1px solid #5a809d;
+  box-shadow: 0px 6px 4px -4px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.tab-content {
+  max-height: 0;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #314d62;
+  font-size: 16px;
+  transition: 0.25s ease-in-out;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+input[type="radio"] {
+  position: absolute;
+  visibility: hidden;
+  left: -99999px;
+}
+input[type="radio"]:checked + .tab-content {
+  height: auto;
+  max-height: 1300px;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
