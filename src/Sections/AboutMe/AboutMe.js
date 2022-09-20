@@ -7,9 +7,9 @@ const AboutMe = () => {
   return (
     <div className="bio-container">
       <h1 className="bio-header">1. About Me...</h1>
-      <div class="bio-card">
-        <div class="bio-card-text">
-          <span class="about-me-desc">
+      <div className="bio-card">
+        <div className="bio-card-text">
+          <span className="about-me-desc">
             Hey there! My name is Kyle and I live to create things that live in
             the digital space. My interest in web development started way back
             in 2007 when I began tinkering with MySpace layouts and themes. This
@@ -40,8 +40,8 @@ const AboutMe = () => {
           </span>
         </div>
 
-        <div class="bio-card-img">
-          <img src={kyle} class="img-responsive" alt="kyle" />
+        <div className="bio-card-img">
+          <img src={kyle} className="img-responsive" alt="kyle" />
         </div>
       </div>
     </div>

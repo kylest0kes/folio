@@ -1,75 +1,99 @@
-.tab-area {
-  margin-top: 125px;
+@media screen and (max-width: 400px) {
+  .tab_div {
+    display: none;
+  }
 }
 
-.tab-section {
-  width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 6px 8px 4px -4px rgba(0, 0, 0, 0.4);
-  border-bottom-left-radius: 0.5em;
-  border-bottom-right-radius: 0.5em;
-}
-
-.tab-section:last-of-type .tab-content {
-  border-radius: 8px;
-}
-
-.tab-header {
-  text-align: center;
+.tab_div {
+  width: 65%;
+  transform: translateZ(0);
   display: block;
-  font-size: 1.6em;
-  position: relative;
-  z-index: 2;
-  background-color: #314d62;
-  color: #ff4c29;
-  padding: 0.5em;
-  border-top: 1px solid #5a809d;
-  box-shadow: 0px 6px 4px -4px rgba(0, 0, 0, 0.4);
-  cursor: pointer;
-  border-radius: 8px;
+  margin: 0 auto;
 }
 
-.tab-header:hover {
-  border: #ff4c29 2px solid;
+.tabs_menu {
+  /*   background-color:blue; */
+  padding-top: 1%;
+  width: 20%;
+  float: left;
 }
 
-.tab-header:active {
-  border: #ff4c29 2px solid;
+ul.tabs {
+  padding: 0;
 }
 
-.tab-content {
-  max-height: 0;
-  overflow: hidden;
-  position: relative;
-  z-index: 1;
-  background-color: rgba(255, 255, 255, 0.6);
-  color: #314d62;
-  font-size: 16px;
-  transition: 0.25s ease;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
-  border-radius: 8px;
+#tab1,
+#tab2,
+#tab3,
+#tab4 {
+  padding-top: 15%;
+  padding-bottom: 15%;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 100%;
 }
 
-.role {
-  text-decoration: underline;
+ul.tabs li {
+  list-style-type: none;
+  border-right: 2px solid #ff4c29;
+  font-size: 18px;
+  color: white;
+  /*   transition: background-color 0.2s ease; */
 }
 
-input[type="radio"] {
-  position: absolute;
-  visibility: hidden;
-  left: -99999px;
-}
+/* ul.tabs li:hover {
+  border-right: 2px solid #e1386c;
+  background-color: rgba( 255, 155, 180, .9);
+  font-weight: bold;
+} */
 
-input[type="radio"]:checked + .tab-content {
+#tab1_content,
+#tab2_content,
+#tab3_content,
+#tab4_content {
+  /*   background-color:red; */
+  float: right;
+  width: 70%;
   height: auto;
-  max-height: 1300px;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
-  border: #ff4c29 2px solid;
+  padding-top: 1%;
+  word-wrap: normal;
 }
 
-input[type="radio"]:not(:checked) + .tab-content {
-  visibility: hidden;
+p {
+  font-size: 16px;
+  color: #ff4c29;
+}
+
+/* hover effect */
+
+ul.tabs li {
+  display: inline-block;
+  position: relative;
+  padding: 1em;
+  cursor: pointer;
+  background: #335167;
+  color: #ff4c29;
+  z-index: 0;
+}
+
+ul.tabs li:before {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #4a6a83;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    transition: transform 0.4s ease-out;
+}
+
+ul.tabs li:hover:before {
+    transform: scaleX(1);
+}
+
+.active {
+    background: #51738d;
 }
