@@ -9,6 +9,7 @@
   transform: translateZ(0);
   display: block;
   margin: 0 auto;
+  padding-top: 40px;
 }
 
 .tabs_menu {
@@ -25,7 +26,8 @@ ul.tabs {
 #tab1,
 #tab2,
 #tab3,
-#tab4 {
+#tab4,
+#tab5 {
   padding-top: 15%;
   padding-bottom: 15%;
   padding-left: 5%;
@@ -42,15 +44,16 @@ ul.tabs li {
 }
 
 /* ul.tabs li:hover {
-  border-right: 2px solid #e1386c;
-  background-color: rgba( 255, 155, 180, .9);
-  font-weight: bold;
+    border-right: 2px solid #e1386c;
+    background-color: rgba( 255, 155, 180, .9);
+    font-weight: bold;
 } */
 
 #tab1_content,
 #tab2_content,
 #tab3_content,
-#tab4_content {
+#tab4_content,
+#tab5_content {
   /*   background-color:red; */
   float: right;
   width: 70%;
@@ -77,23 +80,23 @@ ul.tabs li {
 }
 
 ul.tabs li:before {
-    content: " ";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #4a6a83;
-    transform: scaleX(0);
-    transform-origin: 0 50%;
-    transition: transform 0.4s ease-out;
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #4a6a83;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  transition: transform 0.25s ease-out;
 }
 
 ul.tabs li:hover:before {
-    transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 .active {
-    background: #51738d;
+  background: #51738d;
 }
