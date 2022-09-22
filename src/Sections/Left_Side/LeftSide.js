@@ -26,7 +26,6 @@ const LeftSide = () => {
         <li className="social-li">
           <a
             href="mailto: kylestokes1551@gmail.com"
-            target="blank"
             className="email-icon"
           ><FontAwesomeIcon className="social-icons" icon={faEnvelope} /></a>
         </li>
