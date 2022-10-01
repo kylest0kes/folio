@@ -5,7 +5,7 @@ import "./Work.css";
 
 const Work = () => { 
   return (
-    <div className="work-container">
+    <div className="work-container" id="work-section">
       <p className="work-header">2. Work...</p>
          <WorkItem />     
     </div>

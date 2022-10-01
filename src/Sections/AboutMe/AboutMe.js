@@ -5,7 +5,7 @@ import "./AboutMe.css";
 
 const AboutMe = () => {
   return (
-    <div className="bio-container">
+    <div className="bio-container" id="about-me-section">
       <h1 className="bio-header">1. About Me...</h1>
       <div className="bio-card">
         <div className="bio-card-text">

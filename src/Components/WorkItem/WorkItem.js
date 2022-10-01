@@ -9,7 +9,7 @@ import WorkTab from "../WorkTab/WorkTab";
 import WorkTabContent from "../WorkTabContent/WorkTabContent";
 
 const WorkItem = (props) => {
-  /* need to refactor this to make it better, also add style of font color to 
+  /* need to refactor this to make it better: also add style of font color to 
   the orange that is used in app */
   useEffect(() => {
     $("#tab1_content").hide();
@@ -20,11 +20,11 @@ const WorkItem = (props) => {
 
     $("#tab1").click(function () {
       $("#tab1_content").show();
-      $("#tab1").css("background-color", "#51738d");
-      $("#tab2").css("background-color", "#0a2a42");
-      $("#tab3").css("background-color", "#0a2a42");
-      $("#tab4").css("background-color", "#0a2a42");
-      $("#tab5").css("background-color", "#0a2a42");
+      $("#tab1").css({color: "#ff4c29"});
+      $("#tab2").css({color: "#3c5e78"});
+      $("#tab3").css({color: "#3c5e78"});
+      $("#tab4").css({color: "#3c5e78"});
+      $("#tab5").css({color: "#3c5e78"});
       $("#tab2_content").hide();
       $("#tab3_content").hide();
       $("#tab4_content").hide();
@@ -33,11 +33,11 @@ const WorkItem = (props) => {
 
     $("#tab2").click(function () {
       $("#tab2_content").show();
-      $("#tab1").css("background-color", "#0a2a42");
-      $("#tab2").css("background-color", "#51738d");
-      $("#tab3").css("background-color", "#0a2a42");
-      $("#tab4").css("background-color", "#0a2a42");
-      $("#tab5").css("background-color", "#0a2a42");
+      $("#tab1").css({color: "#3c5e78"});
+      $("#tab2").css({color: "#ff4c29"});
+      $("#tab3").css({color: "#3c5e78"});
+      $("#tab4").css({color: "#3c5e78"});
+      $("#tab5").css({color: "#3c5e78"});
       $("#tab1_content").hide();
       $("#tab3_content").hide();
       $("#tab4_content").hide();
@@ -46,11 +46,11 @@ const WorkItem = (props) => {
 
     $("#tab3").click(function () {
       $("#tab3_content").show();
-      $("#tab1").css("background-color", "#0a2a42");
-      $("#tab2").css("background-color", "#0a2a42");
-      $("#tab3").css("background-color", "#51738d");
-      $("#tab4").css("background-color", "#0a2a42");
-      $("#tab5").css("background-color", "#0a2a42");
+      $("#tab1").css({color: "#3c5e78"});
+      $("#tab2").css({color: "#3c5e78"});
+      $("#tab3").css({color: "#ff4c29"});
+      $("#tab4").css({color: "#3c5e78"});
+      $("#tab5").css({color: "#3c5e78"});
       $("#tab1_content").hide();
       $("#tab2_content").hide();
       $("#tab4_content").hide();
@@ -59,11 +59,11 @@ const WorkItem = (props) => {
 
     $("#tab4").click(function () {
       $("#tab4_content").show();
-      $("#tab1").css("background-color", "#0a2a42");
-      $("#tab2").css("background-color", "#0a2a42");
-      $("#tab3").css("background-color", "#0a2a42");
-      $("#tab4").css("background-color", "#51738d");
-      $("#tab5").css("background-color", "#0a2a42");
+      $("#tab1").css({color: "#3c5e78"});
+      $("#tab2").css({color: "#3c5e78"});
+      $("#tab3").css({color: "#3c5e78"});
+      $("#tab4").css({color: "#ff4c29"});
+      $("#tab5").css({color: "#3c5e78"});
       $("#tab1_content").hide();
       $("#tab2_content").hide();
       $("#tab3_content").hide();
@@ -72,11 +72,11 @@ const WorkItem = (props) => {
 
     $("#tab5").click(function () {
       $("#tab5_content").show();
-      $("#tab1").css("background-color", "#0a2a42");
-      $("#tab2").css("background-color", "#0a2a42");
-      $("#tab3").css("background-color", "#0a2a42");
-      $("#tab4").css("background-color", "#0a2a42");
-      $("#tab5").css("background-color", "#51738d");
+      $("#tab1").css({color: "#3c5e78"});
+      $("#tab2").css({color: "#3c5e78"});
+      $("#tab3").css({color: "#3c5e78"});
+      $("#tab4").css({color: "#3c5e78"});
+      $("#tab5").css({color: "#ff4c29"});
       $("#tab1_content").hide();
       $("#tab2_content").hide();
       $("#tab3_content").hide();
@@ -85,16 +85,16 @@ const WorkItem = (props) => {
   }, []);
 
   return (
-    <div class="tab_div">
-      <div class="tabs_menu">
-        <ul class="tabs">
+    <div className="tab_div">
+      <div className="tabs_menu">
+        <ul className="tabs">
           {JOBS.map((job) => {
             return <WorkTab key={job.id} tabnum={job.tabnum} job={job.job} />;
           })}
         </ul>
       </div>
 
-      <div class="tab_content">
+      <div className="tab_content">
         {JOBS.map((job) => {
           return (
             <WorkTabContent
