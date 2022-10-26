@@ -60,3 +60,10 @@ section {
 .app-contact-section {
   height: 80vh;
 }
+
+@media (max-height: 570px) {
+  .page-section {
+    height: 100%;
+  }
+}
+

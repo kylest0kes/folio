@@ -28,19 +28,19 @@ function App() {
           </Grid>
           <Grid item xs={10} className='center-section'>
             <div className="app-center-container">
-              <section className="app-about-section">
+              <section className="app-about-section page-section">
                 <About />
               </section>
-              <section className="app-about-me-section">
+              <section className="app-about-me-section page-section">
                 <AboutMe />
               </section>
-              <section className="app-work-section">
+              <section className="app-work-section page-section">
                 <Work />
               </section>
-              <section className="app-projects-section">
+              <section className="app-projects-section page-section">
                 <Projects />
               </section>
-              <section className="app-contact-section">
+              <section className="app-contact-section page-section">
                 <Contact />
               </section>
             </div>
