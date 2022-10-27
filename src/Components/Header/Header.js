@@ -9,7 +9,10 @@ const Header = () => {
 
   return (
     <div className={`nav-bar ${ scrollDirection === "down" ? "hide" : "show"}`}>
-      <span className="logo">KS</span>
+      <span className="logo" onClick={(e) => {
+              e.preventDefault();
+              window.location.replace("/");
+            }}>KS</span>
       <ul>
         <li className="nav-bar-li">
           <a

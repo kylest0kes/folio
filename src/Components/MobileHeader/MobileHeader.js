@@ -10,7 +10,10 @@ const MobileHeader = () => {
 
   return (
     <div className={`nav-bar ${ scrollDirection === "down" ? "hide" : "show"}`}>
-      <span className="logo">KS</span>
+      <span className="logo" onClick={(e) => {
+              e.preventDefault();
+              window.location.replace("/");
+            }}>KS</span>
       <div className="hamburger">
         <Hamburger />
       </div>

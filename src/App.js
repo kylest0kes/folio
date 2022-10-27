@@ -32,16 +32,16 @@ function App() {
               <section className="app-about-section page-section">
                 <About />
               </section>
-              <section className="app-about-me-section page-section">
+              <section className="app-about-me-section page-section" id="about-me-section">
                 <AboutMe />
               </section>
-              <section className="app-work-section page-section">
+              <section className="app-work-section page-section" id="work-section">
                 <Work />
               </section>
-              <section className="app-projects-section page-section">
+              <section className="app-projects-section page-section" id="projects-section">
                 <Projects />
               </section>
-              <section className="app-contact-section page-section">
+              <section className="app-contact-section page-section" id="contact-section">
                 <Contact />
               </section>
             </div>

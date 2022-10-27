@@ -28,22 +28,34 @@ const Hamburger = () => {
       <div className={`panel ${isOpen ? "open" : "close"}`} >
         <ul className="list">
           <li className="list-li">
-            <a className="list-a" href="=">
+            <a className="list-a" href="=" onClick={(e) => {
+              e.preventDefault();
+              window.location.replace("/#about-me-section");
+            }}>
               <span className="num">1.</span> ABOUT
             </a>
           </li>
           <li className="list-li">
-            <a className="list-a" href="=">
+            <a className="list-a" href="=" onClick={(e) => {
+              e.preventDefault();
+              window.location.replace("/#work-section");
+            }}>
               <span className="num">2.</span> WORK
             </a>
           </li>
           <li className="list-li">
-            <a className="list-a" href="=">
+            <a className="list-a" href="=" onClick={(e) => {
+              e.preventDefault();
+              window.location.replace("/#projects-section");
+            }}>
               <span className="num">3.</span> PROJECTS
             </a>
           </li>
           <li className="list-li">
-            <a className="list-a" href="=">
+            <a className="list-a" href="=" onClick={(e) => {
+              e.preventDefault();
+              window.location.replace("/#contact-section");
+            }}>
               <span className="num">4.</span> CONTACT
             </a>
           </li>
