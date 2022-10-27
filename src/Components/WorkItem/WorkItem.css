@@ -82,3 +82,12 @@ ul.tabs li:hover:before {
   transform: scaleX(1);
 }
 
+@media(max-width: 1020px) {
+  .tab_div {
+    width: 100%;
+  }
+
+  ul.tabs li {
+    font-size: 16px;
+  }
+}

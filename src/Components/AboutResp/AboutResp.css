@@ -1,0 +1,25 @@
+.img-resp {
+    width: 300px;
+    display: block;
+    margin: 5px auto 45px auto;
+    border-radius: 8px;
+}
+
+.about-me-desc-resp {
+    font-size: 16px;
+    color: #3c5e78;
+}
+
+.tech-resp {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    list-style: none;
+}
+
+.tech-resp li::before {
+    content: "\25bc";
+    transform: rotate(100deg);
+    padding-right: 10px;
+    color: #ff4c29;
+}

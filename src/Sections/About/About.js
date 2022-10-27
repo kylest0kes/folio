@@ -14,7 +14,7 @@ const About = () => {
             <p className="about-text">
               I am a software developer who specializes in building high quality,
               seamless online products. Currently I spend my time transforming the digital 
-              experiences of the financial services industry with 
+              experiences in the financial services industry with 
               <a className="capco" target='blank' href="https://www.capco.com">Capco</a>.
             </p>
           </div>
