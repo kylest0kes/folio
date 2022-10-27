@@ -61,7 +61,7 @@ section {
   height: 80vh;
 }
 
-@media (max-height: 770px) {
+@media (max-height: 920px) {
   .page-section {
     height: 100%;
     margin: 100px auto 200px auto;

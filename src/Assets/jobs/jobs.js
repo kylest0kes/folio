@@ -22,7 +22,7 @@ const JOBS = [
     id: 3,
     tabnum: 'tab3',
     tabcontent: 'tab3_content',
-    job: "Holler Classic Automotive",
+    job: "Holler Classic",
     role: "Service Operator & Team Lead",
     date: "Nov 2016 - Mar 2020",
     jobdesc:
