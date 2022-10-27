@@ -29,6 +29,7 @@ const AboutResp = () => {
           <br />
           Tech I have been working with recently:
           <br />
+          <br />
           <ul className="tech-resp">
             <li>React</li>
             <li>Angular</li>
