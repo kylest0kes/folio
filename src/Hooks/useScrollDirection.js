@@ -21,7 +21,7 @@ const useScrollDirection = () => {
     return () => {
       window.removeEventListener("scroll", updateScrollDirection); // clean up
     };
-  }, [scrollDirection]);
+  }, [scrollDirection]); // update when the direction of the scolling changes
 
   return scrollDirection;
 
