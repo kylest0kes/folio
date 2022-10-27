@@ -1,10 +1,14 @@
 import React from "react";
+import useScrollDirection from "../../Hooks/useScrollDirection";
 
 import "./Header.css";
 
 const Header = () => {
+
+  const scrollDirection = useScrollDirection();
+
   return (
-    <div className="nav-bar">
+    <div className={`nav-bar ${ scrollDirection === "down" ? "hide" : "show"}`}>
       <span className="logo">KS</span>
       <ul>
         <li className="nav-bar-li">
