@@ -18,6 +18,7 @@ const Hamburger = () => {
       setIsOpen(false);
     }
   };
+  
 
   return (
     <div ref={domNode}>

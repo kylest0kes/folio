@@ -1,38 +1,16 @@
 import React, { useState, useEffect, useRef } from "react";
 import useScrollDirection from "../../Hooks/useScrollDirection";
+import useScrollingState from "../../Hooks/useScrollingState";
 
 import "./Header.css";
 
 const Header = () => {
-  const prevScrollY = useRef(0);
 
-  const [scrolling, setScrolling] = useState(false);
-
-  useEffect(() => {
-    const handleScrolling = () => {
-      const currentScrollY = window.scrollY;
-
-      if (prevScrollY.current < currentScrollY && scrolling) {
-        setScrolling(false);
-      };
-
-      if (prevScrollY.current > currentScrollY && !scrolling) {
-        setScrolling(true);
-      };
-
-      prevScrollY.current = currentScrollY;
-      console.log(scrolling, currentScrollY);
-    };
-    window.addEventListener("scroll", handleScrolling, { passive: true });
-
-    return () => window.removeEventListener("scroll", handleScrolling);
-
-  }, [scrolling]);
-
+  const isUserScrolling = useScrollingState();
   const scrollDirection = useScrollDirection();
 
   return (
-    <div className={`nav-bar ${ scrollDirection === "down" ? "hide" : "show"} ${scrolling ? "scrollStyle" : ""}`}>
+    <div className={`nav-bar ${ scrollDirection === "down" ? "hide" : "show"} ${isUserScrolling ? "scrollStyle" : ""}`}>
       <span className="logo" onClick={(e) => {
               e.preventDefault();
               window.location.replace("/");
