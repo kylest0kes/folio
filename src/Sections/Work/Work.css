@@ -1,11 +1,11 @@
 .work-container {
   width: 100%;
-  position: relative;
 }
 
 .work-header {
   color: #ff4c29;
   font-size: 25px;
+  margin-bottom: 40px;
 }
 
 

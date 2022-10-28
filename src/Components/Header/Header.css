@@ -7,10 +7,16 @@
   transition-property: all; 
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 300ms;
+  z-index: 2;
 }
 
 .nav-bar.hide {
   top: -80px;
+}
+
+.nav-bar.scrollStyle {
+  background-color: #0c2b43;
+  opacity: .75;
 }
 
 .logo {

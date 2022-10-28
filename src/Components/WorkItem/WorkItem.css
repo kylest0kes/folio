@@ -3,7 +3,7 @@
   transform: translateZ(0);
   display: block;
   margin: 0 auto;
-  padding-top: 40px;
+  /* padding-top: 40px; */
 }
 
 .tabs_menu {
