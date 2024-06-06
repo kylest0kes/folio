@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React from "react";
 import useScrollDirection from "../../Hooks/useScrollDirection";
 import useScrollingState from "../../Hooks/useScrollingState";
 

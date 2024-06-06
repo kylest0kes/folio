@@ -12,14 +12,16 @@ const About = () => {
           <h1 className="below-name">I build things with code.</h1>
           <div className="about-text-sec">
             <p className="about-text">
-              I am a software developer who specializes in building high quality,
-              seamless online products. Currently I spend my time transforming the digital 
+              I am a software developer who specializes in building high quality, online products. Currently I spend my time transforming digital 
               experiences in the financial services industry with 
               <a className="capco" target='blank' href="https://www.capco.com">Capco</a>.
             </p>
           </div>
           <br/>
-          <a className="about-btn" href="=">Check Out My Work</a>
+          <a className="about-btn" href="=" onClick={(e) => {
+              e.preventDefault();
+              window.location.replace("/#projects-section");
+            }}>Check Out My Work</a>
         </div>
       </div>
     </div>

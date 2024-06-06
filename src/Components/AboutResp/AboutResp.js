@@ -39,6 +39,8 @@ const AboutResp = () => {
             <li>Drupal</li>
             <li>Javascript (ES6+)</li>
             <li>Matplotlib</li>
+            <li>Adobe Experience Manager</li>
+            <li>Adobe Target</li>
           </ul>
         </span>
       </div>
