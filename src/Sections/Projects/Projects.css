@@ -9,6 +9,13 @@
   margin-bottom: 40px;
 }
 
+.project-cards-filter {
+  margin-bottom: 40px;
+  width: 100%;
+  height: 50px;
+  background-color: #ff4c29;
+}
+
 .project-cards {
   display: flex;
   flex-wrap: wrap;
