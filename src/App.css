@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
   margin: 0;
   padding: 0;
   background-color: #082032;
@@ -35,37 +34,35 @@ body {
 }
 
 section {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 40px 0; 
 }
 
-.app-about-section {
-  height: 85vh;
+.app-about-section,
+.app-about-me-section,
+.app-work-section,
+.app-projects-section,
+.app-contact-section {
+  width: 100%;
+  margin: 40px 0; 
 }
 
-.app-about-me-section {
-  height: 85vh;
+.app-about-section,
+.app-about-me-section,
+.app-contact-section {
+  min-height: 75vh;
 }
 
 .app-work-section {
-  height: 75vh;
-}
-
-.app-projects-section {
-  height: 80vh;
-  width: 100%;
-}
-
-.app-contact-section {
-  height: 80vh;
+  min-height: 85vh;
 }
 
 @media (max-height: 920px) {
   .page-section {
-    height: 100%;
+    min-height: 100%; 
     margin: 100px auto 200px auto;
   }
 }
-
