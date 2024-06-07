@@ -2,7 +2,7 @@
   height: 100vh;
   position: fixed;
   right: 0;
-  width: 8.3%;
+  width: 132px;
 }
 
 .email {
@@ -13,7 +13,7 @@
   transition: all 200ms ease;
   transform: rotate(270deg);
   position: absolute;
-  bottom: 160px;
+  bottom: 200px;
   width: 100%;
   font-size: 15px;
 }
