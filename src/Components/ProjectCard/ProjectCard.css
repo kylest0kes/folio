@@ -1,7 +1,7 @@
 .project-card {
     width: 300px;
-    height: 450px;
-    background-color: #F0F0F0;
+    height: 475px;
+    background-color: #3c5e78;
     border-radius: 5px;
     transition: all ease 0.3s;
     flex: 0 0 250px
@@ -9,7 +9,7 @@
   
 .card-project-preview {
     height: 200px;
-    background-color: #F4F4F4;
+    background-color: #4a6a83;
     border-radius: 10px 10px 0px 0px;
 }
 
@@ -26,29 +26,30 @@
     margin-bottom: 15px;
     margin-top: 0px;
     padding: 0;
-    color: #1b1b1b;
+    color: #ff4c29;
 }
 
 .card-project-description {
     font-family: 'Inter', sans-serif;
     margin-top: 0px;
-    margin-bottom: 30px;
-    font-size: 17px;
+    margin-bottom: 15px;
+    font-size: 14px;
     font-weight: 300;
-    color: #A2A2A2;
+    color: #0a2a42;
     letter-spacing: .3px;
-    line-height: 30px;
+    line-height: 20px;
+    padding-right: 10px;
 } 
 
 .project-btn {
     font-family: 'Inter', sans-serif;
     appearance: none;
     border: none;
-    background-color: #68A1EF;
+    background-color: #0d324f;
     color: #fff;
     font-weight: 300;
-    font-size: 17px;
-    padding: 15px 25px;
+    font-size: 15px;
+    padding: 10px 25px;
     border-radius: 5px;
     transition: all ease 0.3s;
 }
@@ -56,5 +57,10 @@
 .project-btn:hover {
     transform: translateY(-3px);
     cursor: pointer;
+}
+
+.lang-icons {
+    padding-top: 12px;
+    color: #0a2a42;
 }
   

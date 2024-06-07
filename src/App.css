@@ -52,13 +52,11 @@ section {
 
 .app-about-section,
 .app-about-me-section,
+.app-work-section, 
 .app-contact-section {
   min-height: 75vh;
 }
 
-.app-work-section {
-  min-height: 85vh;
-}
 
 @media (max-height: 920px) {
   .page-section {

@@ -12,7 +12,7 @@ const About = () => {
           <h1 className="below-name">I build things with code.</h1>
           <div className="about-text-sec">
             <p className="about-text">
-              I am a software developer who specializes in building high quality, online products. Currently I spend my time transforming digital 
+              I am a software developer who specializes in building high quality online products. Currently I spend my time transforming digital 
               experiences in the financial services industry with 
               <a className="capco" target='blank' href="https://www.capco.com">Capco</a>.
             </p>

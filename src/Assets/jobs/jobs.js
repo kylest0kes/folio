@@ -47,7 +47,7 @@ const JOBS = [
     date: "Nov 2012 - Jan 2015",
     jobdesc:
       "Was in charge of meeting personal, and store sales goals, making strategic decisions to increase sales and productivity, and working with a sales team to guarantee all customers were assisted in a friendly and informative manner. Partnered with a small group to keep an organized warehouse, with new and existing product displayed in a clean and accessible manner.",
-  },
+  }
 ];
 
 export default JOBS;
