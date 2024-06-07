@@ -19,6 +19,7 @@ const Projects = () => {
                   title={project.projectTitle}
                   desc={project.projectDesc}
                   language={project.language}
+                  link={project.link}
                 />                         
               );
             })}

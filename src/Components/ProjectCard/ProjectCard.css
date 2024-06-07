@@ -58,10 +58,11 @@
 .project-btn:hover {
     transform: translateY(-3px);
     cursor: pointer;
+    background-color: #ff4c29;
+    color: #0d324f;
 }
 
 .lang-icons {
-    margin-top: auto;
     padding-top: 12px;
     color: #0a2a42;
 }

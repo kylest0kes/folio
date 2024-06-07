@@ -15,7 +15,7 @@ const PROJECTS = [
         projectDesc: 'PushCart is a demo shopping cart application built in React, using Redux for state management.',
         language: 'React',
         ghURL: 'https://github.com/kylest0kes/shoppingcart',
-        link: ''
+        link: 'https://github.com/kylest0kes/shoppingcart'
     },
     {
         id: 3,
@@ -42,7 +42,7 @@ const PROJECTS = [
         projectDesc: 'botty serves as a starting point for a number of possible chat bots to be implemented in a variety of situations.',
         language: 'Javascript',
         ghURL: 'https://github.com/kylest0kes/botty',
-        link: ''
+        link: 'https://github.com/kylest0kes/botty'
     }
 ];
 
