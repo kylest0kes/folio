@@ -20,6 +20,8 @@ const Projects = () => {
                   desc={project.projectDesc}
                   language={project.language}
                   link={project.link}
+                  img={project.projectImg}
+                  gh={project.ghURL}
                 />                         
               );
             })}

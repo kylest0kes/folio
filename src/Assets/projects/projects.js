@@ -1,7 +1,11 @@
+import tAkumIimg from '../imgs/project-imgs/tAkumI.png';
+import bl0ckImg from '../imgs/project-imgs/bl0ck.png';
+import weatherImg from '../imgs/project-imgs/weather-app.png';
+
 const PROJECTS = [
     {
         id: 1,
-        projectImg: '',
+        projectImg: tAkumIimg,
         projectTitle: 'tAkumI',
         projectDesc: 'tAkumI is a project that uses the Reinforement Learning methodology NEAT (NeuroEvolution of Augmenting Topologies) to teach a neural network to drive a 2d car on different tracks.',
         language: 'Python',
@@ -19,7 +23,7 @@ const PROJECTS = [
     },
     {
         id: 3,
-        projectImg: '',
+        projectImg: bl0ckImg,
         projectTitle: 'bl0ck',
         projectDesc: 'bl0ck is a collection of Python scripts that aim to make it fast and easy to block a large list of accounts from X, Facebook, Instagram, and/or TikTok. ',
         language: 'Python',
@@ -28,7 +32,7 @@ const PROJECTS = [
     },
     {
         id: 4,
-        projectImg: '',
+        projectImg: weatherImg,
         projectTitle: 'Weather App',
         projectDesc: 'This is a Weather Dashboard application powered by the OpenWeather API that allows you to search multiple locations around the world and retrieve accurate weather data about that location.',
         language: 'Javascript',

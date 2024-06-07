@@ -8,11 +8,16 @@ const ProjectCard = (props) => {
   const openLink = () => {
     window.open(props.link, '_blank')
   }
+  
+  const openGH = () => {
+    window.open(props.gh, '_blank')
+  }
 
   return (
-    <div class="card-container">
+    <div class="card-container" onClick={openGH}>
       <div class="project-card">
         <div class="card-project-preview">
+          <img src={props.img} alt={props.title} className="project-img" />
         </div>
         <div class ="card-project-content">
           <h4 class="card-project-title">{props.title}</h4>
