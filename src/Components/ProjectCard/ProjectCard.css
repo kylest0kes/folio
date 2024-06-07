@@ -39,6 +39,7 @@
     letter-spacing: .3px;
     line-height: 20px;
     padding-right: 10px;
+    height: 120px;
 } 
 
 .project-btn {
@@ -60,6 +61,7 @@
 }
 
 .lang-icons {
+    margin-top: auto;
     padding-top: 12px;
     color: #0a2a42;
 }
