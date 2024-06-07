@@ -7,7 +7,9 @@ const Work = () => {
   return (
     <div className="work-container" id="work-section">
       <p className="work-header">2. Work...</p>
-         <WorkItem />     
+      <div className="work-item-container">
+        <WorkItem />     
+      </div>
     </div>
   );
 };
