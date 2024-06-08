@@ -43,7 +43,7 @@ const PROJECTS = [
         id: 5,
         projectImg: '',
         projectTitle: 'botty',
-        projectDesc: 'botty serves as a starting point for a number of possible chat bots to be implemented in a variety of situations.',
+        projectDesc: 'botty serves as a starting point for a number of possible chat bots that can be implemented and tuned for a variety of situations.',
         language: 'Javascript',
         ghURL: 'https://github.com/kylest0kes/botty',
         link: 'https://github.com/kylest0kes/botty'

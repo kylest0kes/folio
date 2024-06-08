@@ -20,7 +20,6 @@ const useScrollingState = () => {
         };
     
         prevScrollY.current = currentScrollY;
-        console.log(scrolling, currentScrollY);
       };
       window.addEventListener("scroll", handleScrolling, { passive: true });
     

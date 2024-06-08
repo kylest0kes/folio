@@ -14,16 +14,16 @@ const ProjectCard = (props) => {
   }
 
   return (
-    <div class="card-container" onClick={openGH}>
-      <div class="project-card">
-        <div class="card-project-preview">
+    <div className="card-container" onClick={openGH}>
+      <div className="project-card">
+        <div className="card-project-preview">
           <img src={props.img} alt={props.title} className="project-img" />
         </div>
-        <div class ="card-project-content">
-          <h4 class="card-project-title">{props.title}</h4>
-          <p class="card-project-description">{props.desc}</p>
+        <div className ="card-project-content">
+          <h4 className="card-project-title">{props.title}</h4>
+          <p className="card-project-description">{props.desc}</p>
           <div className="bottom-content">
-            <button class="project-btn" onClick={openLink}>View {props.title}
+            <button className="project-btn" onClick={openLink}>View {props.title}
             </button>
             <div className="lang-icons">
               {props.language === 'Javascript' && <FontAwesomeIcon icon={faJs} />}
