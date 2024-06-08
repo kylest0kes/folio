@@ -11,8 +11,9 @@
 .project-card:hover {
     cursor: pointer;
     transform: translateY(-10px);
-}
-  
+    box-shadow: 8px 10px 8px rgba(0, 0, 0, 0.3);
+    }
+    
 .card-project-preview {
     height: 200px;
     background-color: #4a6a83;
