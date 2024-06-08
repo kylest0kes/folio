@@ -15,11 +15,9 @@ const Projects = () => {
   }
 
   useEffect(() => {
-    // Add the fade-in class to project cards after filter change
     const projectCards = document.querySelectorAll('.project-card');
     projectCards.forEach(card => {
       card.classList.remove('fade-in');
-      // Trigger reflow to restart the animation
       void card.offsetWidth;
       card.classList.add('fade-in');
     });
