@@ -26,7 +26,7 @@ const JOBS = [
     role: "Service Operator & Team Lead",
     date: "Nov 2016 - Mar 2020",
     jobdesc:
-      "Responsible for receiving multiple call in relation to a variety of situations including, but not limited to, service scheduling, directing inbound calls to proper recipients, and other general assistance. Also supervised a team of 5, ensuring daily qutoas were met, conducted call reviews, trained incoming team members, and generated daily reports for the floor supervisor.",
+      "Responsible for receiving multiple call in relation to a variety of situations including, but not limited to, service scheduling, directing inbound calls to proper recipients, and other general assistance. Also supervised a team of 5, ensuring daily quotas were met, conducted call reviews, trained incoming team members, and generated daily reports for the floor supervisor.",
   },
   {
     id: 4,

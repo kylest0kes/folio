@@ -21,7 +21,7 @@ const AboutDesktop = () => {
             <br />
             <br />
             Jump ahead to present day, and I’ve had the privilege of learning
-            Fullstack Web Development at the University of Central Florida,
+            Full Stack Web Development at the University of Central Florida,
             learning a multitude of different technologies through Udemy, as
             well as working at a major player in the financial services
             industry. My primary focus currently is building accessible,
