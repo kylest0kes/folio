@@ -4,9 +4,9 @@ const JOBS = [
     tabnum: 'tab1',
     tabcontent: 'tab1_content',
     job: "Capco",
-    role: "Software Developer",
+    role: "Senior Software Developer",
     date: "Mar 2021 - Present",
-    jobdesc: "Responsible for...",
+    jobdesc: "Responsible for creating and testing new/enhanced Angular components, implementing ADA enhancements to ensure site accessibility, and developing a 'Data Layer' service for site analytics. Wrote testing automation scripts using Jasmine and Selenium. Assisted in implementing and maintaining personalization capabilities using Adobe Target. Served on a team responsible for a site-wide migration from a Drupal/Angular stack to Adobe Experience Manager at a major Financial Institution.",
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const JOBS = [
     role: "Service Operator & Team Lead",
     date: "Nov 2016 - Mar 2020",
     jobdesc:
-      "Responsible for receiving multiple call in relation to a variety of situations including, but not limited to, service scheduling, directing inbound calls to proper recipients, and other general assistance. Also supervised a team of 5, ensuring daily qutoas were met, conducted call reviews, trained incoming team members, and generated daily reports for the floor supervior.",
+      "Responsible for receiving multiple call in relation to a variety of situations including, but not limited to, service scheduling, directing inbound calls to proper recipients, and other general assistance. Also supervised a team of 5, ensuring daily qutoas were met, conducted call reviews, trained incoming team members, and generated daily reports for the floor supervisor.",
   },
   {
     id: 4,

@@ -15,7 +15,7 @@
   background-position: center center;
   background-size: contain;
   -webkit-tap-highlight-color: transparent;
-}
+  }
 .hamburger-button.open {
   background-image: url(https://res.cloudinary.com/dnpyq0ocz/image/upload/v1588441892/icon-hamburger-close.svg);
   width: 37px;
