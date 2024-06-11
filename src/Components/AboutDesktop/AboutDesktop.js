@@ -14,21 +14,12 @@ const AboutDesktop = () => {
 
         <div className="bio-card-text">
           <span className="about-me-desc">
-            Hey there! My name is Kyle and I live to create things that live in
-            the digital space. My interest in web development started way back
-            in 2007 when I began tinkering with MySpace layouts and themes. This
-            taught me a whole lot about the basics in web development.
-            <br />
-            <br />
-            Jump ahead to present day, and I’ve had the privilege of learning
-            Full Stack Web Development at the University of Central Florida,
-            learning a multitude of different technologies through Udemy, as
-            well as working at a major player in the financial services
-            industry. My primary focus currently is building accessible,
-            inclusive products and digital experiences at Capco for a variety of
-            financial clients.
-            <br />
-            <br />
+          <span className="hi">Hi!</span> My name is Kyle, and I am a proficient Full Stack Developer with three years of expertise in the FinTech industry. I specialize in creating seamless, high-quality digital experiences for high-profile clients and their customers.
+          <br />
+          <br />
+          I honed my skills at the University of Central Florida, as well as through various personal projects and extensive coursework on Udemy. Currently, I work at Capco, where I focus on building accessible, dynamic, and inclusive products for various financial clients, leveraging a broad range of technologies to deliver top-tier solutions.
+          <br />
+          <br />
             Tech I have been working with recently:
             <br />
             <ul className="tech">
