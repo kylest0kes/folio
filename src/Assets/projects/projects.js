@@ -14,15 +14,6 @@ const PROJECTS = [
     },
     {
         id: 2,
-        projectImg: '',
-        projectTitle: 'PushCart',
-        projectDesc: 'PushCart is a demo shopping cart application built in React, using Redux for state management.',
-        language: 'React',
-        ghURL: 'https://github.com/kylest0kes/shoppingcart',
-        link: 'https://github.com/kylest0kes/shoppingcart'
-    },
-    {
-        id: 3,
         projectImg: bl0ckImg,
         projectTitle: 'bl0ck',
         projectDesc: 'bl0ck is a collection of Python scripts that aim to make it fast and easy to block a large list of accounts from X, Facebook, Instagram, and/or TikTok. ',
@@ -31,22 +22,13 @@ const PROJECTS = [
         link: 'https://github.com/kylest0kes/bl0ck'
     },
     {
-        id: 4,
+        id: 3,
         projectImg: weatherImg,
         projectTitle: 'Weather App',
         projectDesc: 'This is a Weather Dashboard application powered by the OpenWeather API that allows you to search multiple locations around the world and retrieve accurate weather data about that location.',
         language: 'Javascript',
         ghURL: 'https://github.com/kylest0kes/weather_app',
         link: 'https://kylest0kes.github.io/weather_app/'
-    },
-    {
-        id: 5,
-        projectImg: '',
-        projectTitle: 'botty',
-        projectDesc: 'botty serves as a starting point for a number of possible chat bots that can be implemented and tuned for a variety of situations.',
-        language: 'Javascript',
-        ghURL: 'https://github.com/kylest0kes/botty',
-        link: 'https://github.com/kylest0kes/botty'
     }
 ];
 
