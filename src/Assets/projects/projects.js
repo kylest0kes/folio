@@ -1,6 +1,7 @@
 import tAkumIimg from '../imgs/project-imgs/tAkumI.png';
 import bl0ckImg from '../imgs/project-imgs/bl0ck.png';
 import weatherImg from '../imgs/project-imgs/weather-app.png';
+import snapStreamImg from '../imgs/project-imgs/snapStream.png'
 
 const PROJECTS = [
     {
@@ -29,6 +30,15 @@ const PROJECTS = [
         language: 'Javascript',
         ghURL: 'https://github.com/kylest0kes/weather_app',
         link: 'https://kylest0kes.github.io/weather_app/'
+    },
+    {
+        id: 4,
+        projectImg: snapStreamImg,
+        projectTitle: 'SnapStream',
+        projectDesc: 'SnapStream is an image searching application, built with Javascript, and powered by the Unsplash API. ',
+        language: 'Javascript',
+        ghURL: 'https://github.com/kylest0kes/image-search',
+        link: 'https://kylest0kes.github.io/image-search/'
     }
 ];
 
