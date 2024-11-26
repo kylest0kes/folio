@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import "./WorkTab.css";
 
-import './WorkTab.css';
-
-const WorkTab = (props) => {
+const WorkTab = ({ tabnum, job, onClick, style }) => {
   return (
-    <li id={ props.tabnum}> { props.job } </li>
-  )
-}
+    <li id={tabnum} onClick={onClick} style={style} className="work-tab">
+      {job}
+    </li>
+  );
+};
 
 export default WorkTab;

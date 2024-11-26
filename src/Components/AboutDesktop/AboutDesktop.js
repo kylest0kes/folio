@@ -26,10 +26,10 @@ const AboutDesktop = () => {
               <li>React</li>
               <li>Angular</li>
               <li>Typescript</li>
+              <li>Javascript (ES6+)</li>
               <li>Python</li>
               <li>Node.js</li>
-              <li>Drupal</li>
-              <li>Javascript (ES6+)</li>
+              <li>Java</li>
               <li>Matplotlib</li>
               <li>Adobe Experience Manager</li>
               <li>Adobe Target</li>

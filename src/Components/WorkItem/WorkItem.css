@@ -1,31 +1,20 @@
 .tab_div {
-  width: 65%;
-  transform: translateZ(0);
-  display: block;
+  width: 80%;
+  display: flex; /* Use flexbox for better alignment */
+  flex-wrap: wrap; /* Ensures proper wrapping on smaller screens */
   margin: 0 auto;
-  /* padding-top: 40px; */
+  padding-top: 40px;
 }
 
 .tabs_menu {
-  padding-top: 1%;
-  width: 20%;
-  float: left;
+  width: 25%; /* Adjusted width for better balance */
+  flex-shrink: 0; /* Prevents shrinking */
+  background-color: #0a2a42;
 }
 
 ul.tabs {
   padding: 0;
-}
-
-#tab1,
-#tab2,
-#tab3,
-#tab4,
-#tab5 {
-  padding-top: 15%;
-  padding-bottom: 15%;
-  padding-left: 5%;
-  padding-right: 5%;
-  width: 100%;
+  margin: 0;
 }
 
 ul.tabs li {
@@ -33,39 +22,39 @@ ul.tabs li {
   border-right: 2px solid #ff4c29;
   font-size: 18px;
   color: white;
+  padding: 15px 10px;
+  cursor: pointer;
+  text-align: left;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-#tab1_content,
-#tab2_content,
-#tab3_content,
-#tab4_content,
-#tab5_content {
-  float: right;
-  width: 70%;
-  height: auto;
-  padding-top: 1%;
-  word-wrap: normal;
+ul.tabs li:hover {
+  color: #ff4c29;
+  background-color: #1b3e57;
 }
 
-p {
+.tab_content {
+  width: 60%; /* Adjusted to complement the tabs */
+  padding: 20px;
+  background-color: #1b3e57; /* Optional background for separation */
+  color: white;
+}
+
+.tab_content h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #ff4c29;
+}
+
+.tab_content p {
+  margin: 5px 0;
   font-size: 16px;
   color: #ff4c29;
 }
 
-/* hover effect */
-
-ul.tabs li {
-  display: inline-block;
-  position: relative;
-  padding: 1em;
-  cursor: pointer;
-  background: #0a2a42;
-  color: #3c5e78;
-  z-index: 0;
-}
-
+/* Hover effect */
 ul.tabs li:before {
-  content: " ";
+  content: "";
   position: absolute;
   z-index: -1;
   top: 0;
@@ -82,8 +71,13 @@ ul.tabs li:hover:before {
   transform: scaleX(1);
 }
 
-@media(max-width: 1020px) {
-  .tab_div {
+/* Responsive Design */
+@media (max-width: 1020px) {
+  .tabs_menu {
+    width: 100%;
+  }
+
+  .tab_content {
     width: 100%;
   }
 
