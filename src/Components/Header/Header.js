@@ -65,7 +65,7 @@ const Header = () => {
           </a>
         </li>
         <li className="nav-bar-li">
-          <a className="nav-bar-a resume" href="=">
+          <a className="nav-bar-a resume" href="/Assets/resume/Resume.pdf">
             RESUME
           </a>
         </li>
