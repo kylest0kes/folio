@@ -30,7 +30,6 @@ const AboutDesktop = () => {
               <li>Python</li>
               <li>Node.js</li>
               <li>Java</li>
-              <li>Matplotlib</li>
               <li>Adobe Experience Manager</li>
               <li>Adobe Target</li>
             </ul>
