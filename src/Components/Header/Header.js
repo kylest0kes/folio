@@ -20,7 +20,7 @@ const Header = () => {
         <li className="nav-bar-li">
           <a
             className="nav-bar-a"
-            href="="
+            href="#about-me-section"
             onClick={(e) => {
               e.preventDefault();
               const target = document.getElementById("about-me-section");
@@ -33,7 +33,7 @@ const Header = () => {
         <li className="nav-bar-li">
           <a
             className="nav-bar-a"
-            href="="
+            href="#work-section"
             onClick={(e) => {
               e.preventDefault();
               const target = document.getElementById("work-section");
@@ -46,7 +46,7 @@ const Header = () => {
         <li className="nav-bar-li">
           <a
             className="nav-bar-a"
-            href="="
+            href="#projects-section"
             onClick={(e) => {
               e.preventDefault();
               const target = document.getElementById("projects-section");
@@ -59,7 +59,7 @@ const Header = () => {
         <li className="nav-bar-li">
           <a
             className="nav-bar-a"
-            href="="
+            href="#contact-section"
             onClick={(e) => {
               e.preventDefault();
               const target = document.getElementById("contact-section");
