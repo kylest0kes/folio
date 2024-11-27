@@ -23,12 +23,6 @@ const LeftSide = () => {
             className="linkedin-icon"
           ><FontAwesomeIcon className="social-icons" icon={faLinkedin} /></a>
         </li>
-        <li className="social-li">
-          <a
-            href="mailto: kylestokes1551@gmail.com"
-            className="email-icon"
-          ><FontAwesomeIcon className="social-icons" icon={faEnvelope} /></a>
-        </li>
       </ul>
     </div>
   );
