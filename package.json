@@ -1,7 +1,7 @@
 {
   "name": "folio",
   "version": "0.1.0",
-  "homepage": "https://kylest0kes.github.io/folio",
+  "homepage": "https://kylest0kes.github.io/folio/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.3",
@@ -49,6 +49,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^6.2.0"
   }
 }
