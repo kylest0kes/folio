@@ -31,7 +31,8 @@ const Hamburger = () => {
           <li className="list-li">
             <a className="list-a" href="=" onClick={(e) => {
               e.preventDefault();
-              window.location.replace("/#about-me-section");
+              const target = document.getElementById("about-me-section");
+              if (target) target.scrollIntoView({ behavior: "smooth"});
             }}>
               <span className="num">1.</span> ABOUT
             </a>
@@ -39,7 +40,8 @@ const Hamburger = () => {
           <li className="list-li">
             <a className="list-a" href="=" onClick={(e) => {
               e.preventDefault();
-              window.location.replace("/#work-section");
+              const target = document.getElementById("work-section");
+              if (target) target.scrollIntoView({ behavior: "smooth"});
             }}>
               <span className="num">2.</span> WORK
             </a>
@@ -47,7 +49,8 @@ const Hamburger = () => {
           <li className="list-li">
             <a className="list-a" href="=" onClick={(e) => {
               e.preventDefault();
-              window.location.replace("/#projects-section");
+              const target = document.getElementById("projects-section");
+              if (target) target.scrollIntoView({ behavior: "smooth"});
             }}>
               <span className="num">3.</span> PROJECTS
             </a>
@@ -55,7 +58,8 @@ const Hamburger = () => {
           <li className="list-li">
             <a className="list-a" href="=" onClick={(e) => {
               e.preventDefault();
-              window.location.replace("/#contact-section");
+              const target = document.getElementById("contact-section");
+              if (target) target.scrollIntoView({ behavior: "smooth"});
             }}>
               <span className="num">4.</span> CONTACT
             </a>
