@@ -25,7 +25,8 @@ const AboutResp = () => {
           <ul className="tech-resp">
             <li>React</li>
             <li>Angular</li>
-            <li>Javascript/Typescript</li>
+            <li>Javascript</li>
+            <li>Typescript</li>
             <li>Python</li>
             <li>Node.js</li>
             <li>Java</li>

@@ -20,7 +20,7 @@ const About = () => {
           <br/>
           <a className="about-btn" href="=" onClick={(e) => {
               e.preventDefault();
-              window.location.replace("/#projects-section");
+              window.location.replace("/folio/#projects-section");
             }}>Check Out My Work</a>
         </div>
       </div>
