@@ -37,6 +37,7 @@
 
 .filter-option {
   margin: 0 15px;
+  color: #5a809d
 }
 
 .filter-option:hover {
@@ -46,6 +47,7 @@
 
 .active {
   text-decoration: underline;
+  color: #ff4c29;
 }
 
 .project-cards {

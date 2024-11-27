@@ -6,7 +6,7 @@ import "./AboutResp.css";
 const AboutResp = () => {
   return (
     <div>
-      <h1 className="bio-header" style={{marginLeft: '25px'}}>1. About Me...</h1>
+      <h1 className="bio-header">1. About Me...</h1>
       <div className="resp-img-div">
         <img src={kyle} className="img-resp" alt="kyle" />
       </div>

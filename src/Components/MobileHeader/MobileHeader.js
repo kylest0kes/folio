@@ -14,7 +14,8 @@ const MobileHeader = () => {
     <div className={`nav-bar ${ scrollDirection === "down" ? "hide" : "show"} ${isUserScrolling ? "scrollStyle" : ""}`}>
       <span className="logo" onClick={(e) => {
               e.preventDefault();
-              window.location.replace("/");
+              const target = document.getElementById("about-secton");
+              if (target) target.scrollIntoView({ behavior: "smooth"});
             }}>KS</span>
       <div className="hamburger">
         <Hamburger />
