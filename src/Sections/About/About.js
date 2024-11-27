@@ -18,9 +18,10 @@ const About = () => {
             </p>
           </div>
           <br/>
-          <a className="about-btn" href="=" onClick={(e) => {
+          <a className="about-btn" href="#projects-section" onClick={(e) => {
               e.preventDefault();
-              window.location.replace("/folio/#projects-section");
+              const target = document.getElementById("projects-section");
+              if (target) target.scrollIntoView({ behavior: "smooth"});
             }}>Check Out My Work</a>
         </div>
       </div>

@@ -29,7 +29,7 @@ function App() {
           </Grid>
           <Grid item xs={10} className='center-section'>
             <div className="app-center-container">
-              <section className="app-about-section page-section">
+              <section className="app-about-section page-section" id="about-section">
                 <About />
               </section>
               <section className="app-about-me-section page-section" id="about-me-section">

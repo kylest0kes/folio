@@ -13,7 +13,8 @@ const Header = () => {
     <div className={`nav-bar ${ scrollDirection === "down" ? "hide" : "show"} ${isUserScrolling ? "scrollStyle" : ""}`}>
       <span className="logo" onClick={(e) => {
               e.preventDefault();
-              window.location.replace("/");
+              const target = document.getElementById("about-section");
+              if (target) target.scrollIntoView({ behavior: "smooth"});
             }}>KS</span>
       <ul>
         <li className="nav-bar-li">
@@ -22,7 +23,8 @@ const Header = () => {
             href="="
             onClick={(e) => {
               e.preventDefault();
-              window.location.replace("/#about-me-section");
+              const target = document.getElementById("about-me-section");
+              if (target) target.scrollIntoView({ behavior: "smooth"});
             }}
           >
             <span className="num">1.</span> ABOUT
@@ -34,7 +36,8 @@ const Header = () => {
             href="="
             onClick={(e) => {
               e.preventDefault();
-              window.location.replace("/#work-section");
+              const target = document.getElementById("work-section");
+              if (target) target.scrollIntoView({ behavior: "smooth"});
             }}
           >
             <span className="num">2.</span> WORK
@@ -46,7 +49,8 @@ const Header = () => {
             href="="
             onClick={(e) => {
               e.preventDefault();
-              window.location.replace("/#projects-section");
+              const target = document.getElementById("projects-section");
+              if (target) target.scrollIntoView({ behavior: "smooth"});
             }}
           >
             <span className="num">3.</span> PROJECTS
@@ -58,7 +62,8 @@ const Header = () => {
             href="="
             onClick={(e) => {
               e.preventDefault();
-              window.location.replace("/#contact-section");
+              const target = document.getElementById("contact-section");
+              if (target) target.scrollIntoView({ behavior: "smooth"});
             }}
           >
             <span className="num">4.</span> CONTACT
