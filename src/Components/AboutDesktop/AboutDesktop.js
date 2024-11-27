@@ -25,8 +25,7 @@ const AboutDesktop = () => {
             <ul className="tech">
               <li>React</li>
               <li>Angular</li>
-              <li>Typescript</li>
-              <li>Javascript (ES6+)</li>
+              <li>Javascript/Typescript</li>
               <li>Python</li>
               <li>Node.js</li>
               <li>Java</li>

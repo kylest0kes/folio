@@ -24,7 +24,7 @@
   margin-right: 57px;
 }
 .panel {
-  max-width: 30%;
+  max-width: 40%;
   background: #0c2b43;
   transition: all 0.4s cubic-bezier(0.42, 0, 0.34, 1.01);
   position: fixed;

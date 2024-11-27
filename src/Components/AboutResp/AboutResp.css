@@ -33,3 +33,21 @@
     padding-right: 10px;
     color: #ff4c29;
 }
+
+@media (max-width: 600px) {
+    .tech-resp {
+        width: 275px;
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+        padding-left: 10px;
+    }
+
+    .bio-card-text-resp {
+        width: 275px;
+    }
+}
+
+@media (max-width: 390px) {
+
+}

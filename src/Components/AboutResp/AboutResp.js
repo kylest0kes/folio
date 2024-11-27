@@ -6,7 +6,7 @@ import "./AboutResp.css";
 const AboutResp = () => {
   return (
     <div>
-      <h1 className="bio-header">1. About Me...</h1>
+      <h1 className="bio-header" style={{marginLeft: '25px'}}>1. About Me...</h1>
       <div className="resp-img-div">
         <img src={kyle} className="img-resp" alt="kyle" />
       </div>
@@ -25,11 +25,10 @@ const AboutResp = () => {
           <ul className="tech-resp">
             <li>React</li>
             <li>Angular</li>
-            <li>Typescript</li>
+            <li>Javascript/Typescript</li>
             <li>Python</li>
             <li>Node.js</li>
-            <li>Drupal</li>
-            <li>Javascript (ES6+)</li>
+            <li>Java</li>
             <li>Matplotlib</li>
             <li>Adobe Experience Manager</li>
             <li>Adobe Target</li>

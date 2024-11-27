@@ -8,7 +8,7 @@ const PROJECTS = [
         id: 1,
         projectImg: tAkumIimg,
         projectTitle: 'tAkumI',
-        projectDesc: 'tAkumI is a project that uses the Reinforement Learning methodology NEAT (NeuroEvolution of Augmenting Topologies) to teach a neural network to drive a 2d car on different tracks.',
+        projectDesc: 'tAkumI uses the Reinforement Learning methodology NEAT (NeuroEvolution of Augmenting Topologies) to teach a neural network to drive a 2d car on different tracks.',
         language: 'Python',
         ghURL: 'https://github.com/kylest0kes/tAkumI',
         link: 'https://github.com/kylest0kes/tAkumI'
@@ -26,7 +26,7 @@ const PROJECTS = [
         id: 3,
         projectImg: weatherImg,
         projectTitle: 'Weather App',
-        projectDesc: 'This is a Weather Dashboard application powered by the OpenWeather API that allows you to search multiple locations around the world and retrieve accurate weather data about that location.',
+        projectDesc: 'This is a Weather Dashboard powered by the OpenWeather API that allows you to search locations around the world and retrieve accurate weather data.',
         language: 'Javascript',
         ghURL: 'https://github.com/kylest0kes/weather_app',
         link: 'https://kylest0kes.github.io/weather_app/'

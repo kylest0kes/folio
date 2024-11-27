@@ -10,7 +10,7 @@ const AboutMe = () => {
   const useResp = useMediaQuery({ query: "(max-width: 940px)"});
 
   return (
-    <div>
+    <div className="about-parent-container">
       {!useResp && <AboutDesktop />}
       {useResp && <AboutResp />}
     </div>

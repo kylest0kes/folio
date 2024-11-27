@@ -61,7 +61,7 @@ const Hamburger = () => {
             </a>
           </li>
           <li className="list-li">
-            <a className="list-a list-res" href="=">
+            <a className="list-a list-res" href="/Assets/resume/Resume.pdf" target="_blank">
               RESUME
             </a>
           </li>
