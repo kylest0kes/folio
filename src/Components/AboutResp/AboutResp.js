@@ -30,6 +30,7 @@ const AboutResp = () => {
             <li>Python</li>
             <li>Node.js</li>
             <li>MongoDB</li>
+            <li>MySQL</li>
             <li>Java</li>
             <li>Adobe Experience Manager</li>
             <li>Adobe Target</li>
