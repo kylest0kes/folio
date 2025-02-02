@@ -34,6 +34,14 @@ const AboutResp = () => {
             <li>Java</li>
             <li>Adobe Experience Manager</li>
             <li>Adobe Target</li>
+            <li>VIM</li>
+            <li>VSCode</li>
+            <li>IntelliJ</li>
+            <li>Github</li>
+            <li>Github Copilot</li>
+            <li>ChatGPT</li>
+            <li>Claude</li>
+            <li>Perplexity</li>
           </ul>
         </span>
       </div>
