@@ -8,7 +8,7 @@ const JOBS = [
     date: "Mar 2021 - Present",
     jobdesc: [
       <p><strong>Consultant</strong></p>,
-      <p>Orlando, Florida | March 2021 - Present</p>,
+      <p>Orlando, Florida</p>,
       <ul>
         <li>Analyze client requirements, design scalable solutions, and develop high-quality software using industry best practices.</li>    
         <li>Provide expert guidance on software architecture, CI/CD pipelines, Agile methodologies, and modern software development frameworks to improve client workflows.</li>    
@@ -27,7 +27,7 @@ const JOBS = [
     date: "Mar 2022 - Present",
     jobdesc: [
       <p><strong>Senior Software Engineer</strong></p>,
-      <p>(via Capco) Remote | March 2022 - Present</p>,
+      <p>(via Capco) Remote</p>,
       <ul>
         <li>Assisted in leading the migration of a critical Fund service into the Adobe AEM ecosystem from a Drupal/Angular codebase, improving performance, application security, code quality, and test coverage.</li>
         <li>Implemented a robust Data Layer framework in the migrated Fund Service, allowing for better data collection to drive future business decisions.</li>
@@ -49,7 +49,7 @@ const JOBS = [
     date: 'April 2021 - February 2022',
     jobdesc: [
       <p><strong>QA Engineer / Business Analyst</strong></p>,
-      <p>(via Capco) Remote | April 2021 - February 2022</p>,
+      <p>(via Capco) Remote</p>,
       <ul>
         <li>Assisted in creating a comprehensive QA framework, combining manual and automated testing practices.</li>
         <li>Implemented a robust testing reporting system, transforming manual and automated test result records into an easily digestible format.</li>

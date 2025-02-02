@@ -38,6 +38,8 @@ ul.tabs li:hover {
   padding: 20px;
   background-color: #1b3e57; /* Optional background for separation */
   color: white;
+  height: 500px;
+  overflow-y: auto;
 }
 
 .tab_content h2 {
