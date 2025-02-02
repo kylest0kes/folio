@@ -22,6 +22,15 @@ html, body {
   background: #FF4C29; 
 }
 
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #0e3e62 #0f3450; 
+}
+
+*::-moz-scrollbar-thumb:hover {
+  background: #FF4C29 !important;
+}
+
 .center-section {
   padding-left: 10px;
   padding-right: 10px;
