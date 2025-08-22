@@ -70,7 +70,7 @@ const Header = () => {
           </a>
         </li>
         <li className="nav-bar-li">
-          <a className="nav-bar-a resume" href="/Assets/resume/Resume.pdf" target="_blank">
+          <a className="nav-bar-a resume" href="/folio/Assets/resume/Resume.pdf" target="_blank">
             RESUME
           </a>
         </li>
