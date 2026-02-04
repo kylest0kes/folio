@@ -4,6 +4,7 @@ import weatherImg from '../imgs/project-imgs/weather-app.png';
 import snapStreamImg from '../imgs/project-imgs/snapStream.png';
 import folioImg from '../imgs/project-imgs/folio.png';
 import writeittImg from '../imgs/project-imgs/writeitt.png';
+import moBodies from '../imgs/project-imgs/moBodies.png' 
 
 const PROJECTS = [
     {
@@ -37,7 +38,7 @@ const PROJECTS = [
         id: 4,
         projectImg: snapStreamImg,
         projectTitle: 'SnapStream',
-        projectDesc: 'SnapStream is an image searching application, built with Javascript, and powered by the Unsplash API. ',
+        projectDesc: 'SnapStream is an image searching application, built with Javascript, and powered by the Unsplash API.',
         language: 'Javascript',
         ghURL: 'https://github.com/kylest0kes/image-search',
         link: 'https://kylest0kes.github.io/image-search/'
@@ -59,6 +60,15 @@ const PROJECTS = [
         language: 'Javascript',
         ghURL: 'https://github.com/kylest0kes/weather_app',
         link: 'https://kylest0kes.github.io/weather_app/'
+    },
+    {
+        id: 7,
+        projectImg: moBodies,
+        projectTitle: 'mo-bodies',
+        projectDesc: 'mo-bodes is a simulation of the n-bodies phyiscs problem, allowing the user to observe simulated orbital patterns of multiple bodies around a fixed center mass.',
+        language: 'Python',
+        ghURL: 'https://github.com/kylest0kes/mo_bodies',
+        link: 'https://github.com/kylest0kes/mo_bodies'
     },
 ];
 

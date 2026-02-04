@@ -54,6 +54,44 @@ const JOBS = [
     id: 2,
     tabnum: "tab2",
     tabcontent: "tab2_content",
+    job: "Santander",
+    role: "QA Engineer",
+    date: "Aug 2025 - Present",
+    jobdesc: [
+      <p>(via Capco) Remote</p>,
+      <ul>
+        <li>
+          Performed end-to-end functional testing across Santander’s Open Bank
+          and PAGO platforms, ensuring seamless integration between multiple
+          business streams and APIs.
+        </li>
+        <li>
+          Designed and executed comprehensive test plans and test cases,
+          validating transaction flows, authentication, and compliance-critical
+          financial features.
+        </li>
+        <li>
+          Created detailed test result documentation and defect reports,
+          communicating findings effectively to development and product teams to
+          drive iterative improvements.
+        </li>
+        <li>
+          Collaborated closely with developers and product owners to
+          troubleshoot issues, and validate deployment readiness within agile
+          sprints.
+        </li>
+        <li>
+          Verified that all platform functionality adhered to financial
+          regulations and internal compliance standards, strengthening product
+          reliability and customer trust.
+        </li>
+      </ul>,
+    ],
+  },
+  {
+    id: 3,
+    tabnum: "tab3",
+    tabcontent: "tab3_content",
     job: "Prudential",
     role: "Senior Software Engineer",
     date: "Mar 2022 - Aug 2025",
@@ -108,8 +146,8 @@ const JOBS = [
     ],
   },
   {
-    id: 3,
-    tabnum: "tab3",
+    id: 4,
+    tabnum: "tab4",
     job: "FIS",
     role: "QA Engineer / Business Analyst",
     date: "April 2021 - February 2022",
