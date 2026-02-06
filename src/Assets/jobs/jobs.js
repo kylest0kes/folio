@@ -54,9 +54,51 @@ const JOBS = [
     id: 2,
     tabnum: "tab2",
     tabcontent: "tab2_content",
+    job: "Huntington National Bank",
+    role: "Senior QA Engineer",
+    date: "Jan 2026 - Present",
+    jobdesc: [
+      <p>(via Capco) Remote</p>,
+      <ul>
+        <li>
+          Led QA strategy and automation planning for newly developed APIs,
+          establishing robust testing frameworks and roadmap for scalable
+          coverage.
+        </li>
+        <li>
+          Conducted manual and automated API testing, ensuring reliability,
+          performance, and compliance with business and technical requirements.
+        </li>
+        <li>
+          Implemented a documentation workflow to standardize test case
+          creation, execution tracking, and results reporting.
+        </li>
+        <li>
+          Collaborated with product and development teams during story creation
+          to ensure full QA representation and comprehensive test coverage.
+        </li>
+        <li>
+          Mentored junior QA engineers in automation best practices, code
+          reviews, and continuous integration methodologies.
+        </li>
+        <li>
+          Performed end-to-end feature testing, validating integrations across
+          multiple systems prior to release.
+        </li>
+        <li>
+          Presented QA findings to stakeholders and partnered closely with
+          developers to resolve defects and improve release quality.
+        </li>
+      </ul>,
+    ],
+  },
+  {
+    id: 3,
+    tabnum: "tab3",
+    tabcontent: "tab3_content",
     job: "Santander",
     role: "QA Engineer",
-    date: "Aug 2025 - Present",
+    date: "Aug 2025 - Dec 2025",
     jobdesc: [
       <p>(via Capco) Remote</p>,
       <ul>
@@ -89,9 +131,9 @@ const JOBS = [
     ],
   },
   {
-    id: 3,
-    tabnum: "tab3",
-    tabcontent: "tab3_content",
+    id: 4,
+    tabnum: "tab4",
+    tabcontent: "tab4_content",
     job: "Prudential",
     role: "Senior Software Engineer",
     date: "Mar 2022 - Aug 2025",
@@ -146,8 +188,9 @@ const JOBS = [
     ],
   },
   {
-    id: 4,
-    tabnum: "tab4",
+    id: 5,
+    tabnum: "tab5",
+    tabcontent: "tab5_content",
     job: "FIS",
     role: "QA Engineer / Business Analyst",
     date: "April 2021 - February 2022",
