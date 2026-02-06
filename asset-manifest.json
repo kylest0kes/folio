@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/folio/static/css/main.50eef37b.css",
+    "main.js": "/folio/static/js/main.d235e341.js",
+    "static/js/453.7575dd7c.chunk.js": "/folio/static/js/453.7575dd7c.chunk.js",
+    "static/media/kyle.jpg": "/folio/static/media/kyle.a6527aac27b7e8856c9f.jpg",
+    "static/media/snapStream.png": "/folio/static/media/snapStream.85706008479253382f16.png",
+    "static/media/writeitt.png": "/folio/static/media/writeitt.4624f663e579984b6647.png",
+    "static/media/weather-app.png": "/folio/static/media/weather-app.42fb057a58727a2f47a3.png",
+    "static/media/tAkumI.png": "/folio/static/media/tAkumI.3ff8e016f50e76dfcb08.png",
+    "static/media/folio.png": "/folio/static/media/folio.cc47829258bca3471bde.png",
+    "static/media/hamburger_updated.png": "/folio/static/media/hamburger_updated.f2edf38213591162e0d5.png",
+    "static/media/bl0ck.png": "/folio/static/media/bl0ck.5bb34eed061b73496331.png",
+    "static/media/moBodies.png": "/folio/static/media/moBodies.5d5ccdf2f973095d170e.png",
+    "index.html": "/folio/index.html",
+    "main.50eef37b.css.map": "/folio/static/css/main.50eef37b.css.map",
+    "main.d235e341.js.map": "/folio/static/js/main.d235e341.js.map",
+    "453.7575dd7c.chunk.js.map": "/folio/static/js/453.7575dd7c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50eef37b.css",
+    "static/js/main.d235e341.js"
+  ]
+}
