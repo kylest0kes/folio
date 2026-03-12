@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProjectCard.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPython, faReact, faJs } from "@fortawesome/free-brands-svg-icons";
+import { faPython, faReact, faJs, faAngular, faJava, faNode } from "@fortawesome/free-brands-svg-icons";
 
 const ProjectCard = (props) => {
 
@@ -26,9 +26,34 @@ const ProjectCard = (props) => {
             <button className="project-btn" onClick={openLink}>View {props.title}
             </button>
             <div className="lang-icons">
-              {props.language === 'Javascript' && <FontAwesomeIcon icon={faJs} />}
-              {props.language === 'React' && <FontAwesomeIcon icon={faReact} />}
-              {props.language === 'Python' && <FontAwesomeIcon icon={faPython} />}
+              {Array.isArray(props.language) ? (
+                props.language.map(lang => {
+                  switch (lang) {
+                    case 'Javascript':
+                      return <FontAwesomeIcon key={lang} icon={faJs} className="lang-icon" />;
+                    case 'React':
+                      return <FontAwesomeIcon key={lang} icon={faReact} className="lang-icon"/>;
+                    case 'Python':
+                      return <FontAwesomeIcon key={lang} icon={faPython} className="lang-icon"/>;
+                    case 'Angular':
+                      return <FontAwesomeIcon key={lang} icon={faAngular} className="lang-icon"/>;
+                    case 'Java':
+                      return <FontAwesomeIcon key={lang} icon={faJava} className="lang-icon"/>;
+                    case 'Node':
+                      return <FontAwesomeIcon key={lang} icon={faNode} className="lang-icon"/>
+                    default:
+                      return null; 
+                  }
+                })
+              ) : (
+                <>
+                  {props.language === 'Javascript' && <FontAwesomeIcon icon={faJs} className="lang-icon"/>}
+                  {props.language === 'React' && <FontAwesomeIcon icon={faReact} className="lang-icon"/>}
+                  {props.language === 'Python' && <FontAwesomeIcon icon={faPython} className="lang-icon"/>}
+                  {props.language === 'Angular' && <FontAwesomeIcon icon={faAngular} className="lang-icon"/>}
+                  {props.language === 'Java' && <FontAwesomeIcon icon={faJava} className="lang-icon"/>}
+                </>
+              )}
             </div>
           </div>
         </div>

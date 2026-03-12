@@ -9,8 +9,13 @@ const Projects = () => {
 
   const handleSetFilter = (language) => {
     setFilter(language);
-    const newFilteredProjects = language ? PROJECTS.filter(project => project.language === language) : PROJECTS;
-
+    const newFilteredProjects = language ? PROJECTS.filter(project => {
+      if (Array.isArray(project.language)) {
+        return project.language.includes(language);
+      } else {
+        return project.language === language;
+      }
+    }) : PROJECTS;
     setFilteredProjects(newFilteredProjects);
   }
 
@@ -29,9 +34,12 @@ const Projects = () => {
         <div className='projects-subsection'>
           <div className='project-cards-filter'>
             <p onClick={() => handleSetFilter('')} className={filter === '' ? 'filter-option active' : 'filter-option'}>All</p>
+            <p onClick={() => handleSetFilter('Angular')} className={filter === 'Angular' ? 'filter-option active' : 'filter-option'}>Angular</p>
+            <p onClick={() => handleSetFilter('Java')} className={filter === 'Java' ? 'filter-option active' : 'filter-option'}>Java</p>
             <p onClick={() => handleSetFilter('Javascript')} className={filter === 'Javascript' ? 'filter-option active' : 'filter-option'}>Javascript</p>
-            <p onClick={() => handleSetFilter('React')} className={filter === 'React' ? 'filter-option active' : 'filter-option'}>React</p>
+            <p onClick={() => handleSetFilter('Node')} className={filter === 'Node' ? 'filter-option active' : 'filter-option'}>Node</p>
             <p onClick={() => handleSetFilter('Python')} className={filter === 'Python' ? 'filter-option active' : 'filter-option'}>Python</p>
+            <p onClick={() => handleSetFilter('React')} className={filter === 'React' ? 'filter-option active' : 'filter-option'}>React</p>
           </div>
           <div className='project-cards'>
             {filteredProjects.map((project) => {

@@ -5,6 +5,7 @@ import snapStreamImg from '../imgs/project-imgs/snapStream.png';
 import folioImg from '../imgs/project-imgs/folio.png';
 import writeittImg from '../imgs/project-imgs/writeitt.png';
 import moBodies from '../imgs/project-imgs/moBodies.png' 
+import pokemonnn from '../imgs/project-imgs/pokemonnn.png';
 
 const PROJECTS = [
     {
@@ -21,7 +22,7 @@ const PROJECTS = [
         projectImg: writeittImg,
         projectTitle: 'writeitt',
         projectDesc: 'writeitt is a social media app where you can create Stories, add Stories to your Library, add Posts to Stories, connect with other users, and more. Built with MERN stack.',
-        language: 'React',
+        language: ['React', 'Node'],
         ghURL: 'https://github.com/kylest0kes/writeitt',
         link: 'https://github.com/kylest0kes/writeitt'
     },
@@ -70,6 +71,16 @@ const PROJECTS = [
         ghURL: 'https://github.com/kylest0kes/mo_bodies',
         link: 'https://github.com/kylest0kes/mo_bodies'
     },
+    {
+        id: 8,
+        projectImg: pokemonnn,
+        projectTitle: 'pokemonnn',
+        projectDesc: 'pokemonnn is a Angular frontend, reactive Spring backend, that allows a user to see different pokemon and their information. Powered by the pokeapi.',
+        language: ['Angular', 'Java'],  
+        ghURL: 'https://github.com/kylest0kes/pokemonnn', 
+        link: 'https://github.com/kylest0kes/pokemonnn'
+
+    }
 ];
 
 export default PROJECTS;
