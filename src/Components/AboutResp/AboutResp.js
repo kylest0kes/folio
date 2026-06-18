@@ -25,32 +25,57 @@ const AboutResp = () => {
           services companies.
           <br />
           <br />
-          Tech I have been working with recently:
-          <br />
-          <br />
           <div className="tech-stack-resp">
             <p className="tech-label-resp">
               <strong>Tech Stack</strong>
             </p>
             <div className="tech-grid-resp">
               <div className="tech-row-resp">
+                <span className="tech-cat-resp">Languages</span>
+                <span className="tech-items-resp">
+                  JavaScript · TypeScript · Python · Java · SQL · HTL · JSP
+                </span>
+              </div>
+              <div className="tech-row-resp">
                 <span className="tech-cat-resp">Frontend</span>
                 <span className="tech-items-resp">
-                  React · Angular · TypeScript · JavaScript
+                  Angular · React · NgRx · RxJS · HTML/CSS
                 </span>
               </div>
               <div className="tech-row-resp">
                 <span className="tech-cat-resp">Backend</span>
-                <span className="tech-items-resp">Node.js · Python · Java</span>
-              </div>
-              <div className="tech-row-resp">
-                <span className="tech-cat-resp">Database</span>
-                <span className="tech-items-resp">MongoDB · MySQL</span>
-              </div>
-              <div className="tech-row-resp">
-                <span className="tech-cat-resp">Tools</span>
                 <span className="tech-items-resp">
-                  AEM · Adobe Target · VS Code · IntelliJ · VIM · GitHub
+                  Node.js · Express · Flask · Spring/EE
+                </span>
+              </div>
+              <div className="tech-row-resp">
+                <span className="tech-cat-resp">CMS</span>
+                <span className="tech-items-resp">
+                  Adobe AEM · Adobe Target
+                </span>
+              </div>
+              <div className="tech-row-resp">
+                <span className="tech-cat-resp">DevOps</span>
+                <span className="tech-items-resp">
+                  AWS · Docker · Jenkins · CI/CD · GitHub/Bitbucket
+                </span>
+              </div>
+              <div className="tech-row-resp">
+                <span className="tech-cat-resp">Testing</span>
+                <span className="tech-items-resp">
+                  Selenium · JUnit · Mockito · Postman · Karate
+                </span>
+              </div>
+              <div className="tech-row-resp">
+                <span className="tech-cat-resp">Databases</span>
+                <span className="tech-items-resp">
+                  MySQL · MongoDB · SQLite · Postgres
+                </span>
+              </div>
+              <div className="tech-row-resp">
+                <span className="tech-cat-resp">Methodologies</span>
+                <span className="tech-items-resp">
+                  Agile/Scrum · TDD · Jira · Confluence
                 </span>
               </div>
             </div>
