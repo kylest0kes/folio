@@ -33,7 +33,7 @@ const AboutResp = () => {
               <div className="tech-row-resp">
                 <span className="tech-cat-resp">Languages</span>
                 <span className="tech-items-resp">
-                  JavaScript · TypeScript · Python · Java · SQL · HTL · JSP
+                  JavaScript · TypeScript · Python · Java · SQL · HTL
                 </span>
               </div>
               <div className="tech-row-resp">

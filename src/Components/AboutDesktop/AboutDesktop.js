@@ -35,7 +35,7 @@ const AboutDesktop = () => {
                 <div className="tech-row">
                   <span className="tech-cat">Languages</span>
                   <span className="tech-items">
-                    JavaScript · TypeScript · Python · Java · SQL · HTL · JSP
+                    JavaScript · TypeScript · Python · Java · SQL · HTL
                   </span>
                 </div>
                 <div className="tech-row">
