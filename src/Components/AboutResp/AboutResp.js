@@ -14,7 +14,7 @@ const AboutResp = () => {
       <div className="bio-card-text-resp">
         <span className="about-me-desc-resp">
           <span className="hi">Hi!</span> My name is Kyle. I'm a Full Stack
-          Developer with three years of experience building software for the
+          Developer with five years of experience building software for the
           fintech industry. I've worked with major financial clients to create
           polished, high-performance digital products that people actually use.
           <br />
