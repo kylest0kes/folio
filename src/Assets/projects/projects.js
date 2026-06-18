@@ -24,7 +24,7 @@ const PROJECTS = [
         projectDesc: 'writeitt is a social media app where you can create Stories, add Stories to your Library, add Posts to Stories, connect with other users, and more. Built with MERN stack.',
         language: ['React', 'Node'],
         ghURL: 'https://github.com/kylest0kes/writeitt',
-        link: 'https://github.com/kylest0kes/writeitt'
+        link: 'https://writeitt.onrender.com/'
     },
     {
         id: 2,
