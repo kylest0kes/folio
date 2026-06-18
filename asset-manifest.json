@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/folio/static/css/main.ab3f75eb.css",
+    "main.js": "/folio/static/js/main.1b0bcdfa.js",
+    "static/js/453.7575dd7c.chunk.js": "/folio/static/js/453.7575dd7c.chunk.js",
+    "static/media/pokemonnn.png": "/folio/static/media/pokemonnn.1ef3ca025c54ede17b7f.png",
+    "static/media/kyle.jpg": "/folio/static/media/kyle.a6527aac27b7e8856c9f.jpg",
+    "static/media/snapStream.png": "/folio/static/media/snapStream.85706008479253382f16.png",
+    "static/media/writeitt.png": "/folio/static/media/writeitt.4624f663e579984b6647.png",
+    "static/media/tAkumI.png": "/folio/static/media/tAkumI.3ff8e016f50e76dfcb08.png",
+    "static/media/folio.png": "/folio/static/media/folio.cc47829258bca3471bde.png",
+    "static/media/JobAppTracker.png": "/folio/static/media/JobAppTracker.84e666f219bc9ad915a3.png",
+    "static/media/hamburger_updated.png": "/folio/static/media/hamburger_updated.f2edf38213591162e0d5.png",
+    "static/media/bl0ck.png": "/folio/static/media/bl0ck.5bb34eed061b73496331.png",
+    "static/media/moBodies.png": "/folio/static/media/moBodies.5d5ccdf2f973095d170e.png",
+    "index.html": "/folio/index.html",
+    "main.ab3f75eb.css.map": "/folio/static/css/main.ab3f75eb.css.map",
+    "main.1b0bcdfa.js.map": "/folio/static/js/main.1b0bcdfa.js.map",
+    "453.7575dd7c.chunk.js.map": "/folio/static/js/453.7575dd7c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab3f75eb.css",
+    "static/js/main.1b0bcdfa.js"
+  ]
+}
