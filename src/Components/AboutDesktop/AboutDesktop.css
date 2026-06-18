@@ -42,16 +42,30 @@
   font-size: 70%;
 }
 
-.tech {
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
-  list-style: none;
+.tech-stack {
+  margin-top: 15px;
 }
 
-.tech li::before {
-  content: "\25bc";
-  transform: rotate(100deg);
-  padding-right: 10px;
+.tech-label {
+  font-size: 14px;
+  color: #3c5e78;
+  margin-bottom: 6px;
+}
+
+.tech-grid > div {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 2px;
+}
+
+.tech-cat {
+  font-weight: 600;
   color: #ff4c29;
+  font-size: 14px;
+  min-width: 70px;
+}
+
+.tech-items {
+  color: #3c5e78;
+  font-size: 14px;
 }

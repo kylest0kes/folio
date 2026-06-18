@@ -1,6 +1,6 @@
 import tAkumImg from '../imgs/project-imgs/tAkumI.png';
 import bl0ckImg from '../imgs/project-imgs/bl0ck.png';
-import weatherImg from '../imgs/project-imgs/weather-app.png';
+import jobAppTracker from '../imgs/project-imgs/JobAppTracker.png';
 import snapStreamImg from '../imgs/project-imgs/snapStream.png';
 import folioImg from '../imgs/project-imgs/folio.png';
 import writeittImg from '../imgs/project-imgs/writeitt.png';
@@ -55,12 +55,12 @@ const PROJECTS = [
     },
     {
         id: 3,
-        projectImg: weatherImg,
-        projectTitle: 'Weather App',
-        projectDesc: 'This is a Weather Dashboard powered by the OpenWeather API that allows you to search locations around the world and retrieve accurate weather data and store the recent searches.',
-        language: 'Javascript',
-        ghURL: 'https://github.com/kylest0kes/weather_app',
-        link: 'https://kylest0kes.github.io/weather_app/'
+        projectImg: jobAppTracker,
+        projectTitle: 'Job App Tracker',
+        projectDesc: 'Job Application Tracker is a React/Typescript app to help job seekers organize and monitor their job applications with persistent storage.',
+        language: ['React', 'Typescript'],
+        ghURL: 'https://github.com/kylest0kes/job_app_tracker',
+        link: 'https://kylest0kes.github.io/job_app_tracker/'
     },
     {
         id: 7,

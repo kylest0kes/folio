@@ -93,49 +93,11 @@ const JOBS = [
     ],
   },
   {
-    id: 3,
-    tabnum: "tab3",
-    tabcontent: "tab3_content",
-    job: "Santander",
-    role: "QA Engineer",
-    date: "Aug 2025 - Dec 2025",
-    jobdesc: [
-      <p>(via Capco) Remote</p>,
-      <ul>
-        <li>
-          Performed end-to-end functional testing across Santander’s Open Bank
-          and PAGO platforms, ensuring seamless integration between multiple
-          business streams and APIs.
-        </li>
-        <li>
-          Designed and executed comprehensive test plans and test cases,
-          validating transaction flows, authentication, and compliance-critical
-          financial features.
-        </li>
-        <li>
-          Created detailed test result documentation and defect reports,
-          communicating findings effectively to development and product teams to
-          drive iterative improvements.
-        </li>
-        <li>
-          Collaborated closely with developers and product owners to
-          troubleshoot issues, and validate deployment readiness within agile
-          sprints.
-        </li>
-        <li>
-          Verified that all platform functionality adhered to financial
-          regulations and internal compliance standards, strengthening product
-          reliability and customer trust.
-        </li>
-      </ul>,
-    ],
-  },
-  {
     id: 4,
     tabnum: "tab4",
     tabcontent: "tab4_content",
     job: "Prudential",
-    role: "Senior Software Engineer",
+    role: "Software Engineer",
     date: "Mar 2022 - Aug 2025",
     jobdesc: [
       <p>(via Capco) Remote</p>,
@@ -183,35 +145,6 @@ const JOBS = [
           Established testing best practices: Automated unit testing scripts,
           peer code reviews, deployments across all environments (Dev, QA,
           Stage, Prod), and defined Adobe Target implementation standards.
-        </li>
-      </ul>,
-    ],
-  },
-  {
-    id: 5,
-    tabnum: "tab5",
-    tabcontent: "tab5_content",
-    job: "FIS",
-    role: "QA Engineer / Business Analyst",
-    date: "April 2021 - February 2022",
-    jobdesc: [
-      <p>(via Capco) Remote</p>,
-      <ul>
-        <li>
-          Built automated API test scripts (Postman) reducing manual testing
-          effort.
-        </li>
-        <li>
-          Consolidated manual & automated results into a reporting system for
-          visibility across teams.
-        </li>
-        <li>
-          Performed system analysis to ensure deliverables met business
-          expectations.
-        </li>
-        <li>
-          Supported Agile ceremonies, occasionally leading stand-ups and
-          retrospectives.
         </li>
       </ul>,
     ],

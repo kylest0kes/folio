@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProjectCard.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPython, faReact, faJs, faAngular, faJava, faNode } from "@fortawesome/free-brands-svg-icons";
+import { faPython, faReact, faJs, faAngular, faJava, faNode, faTypescript } from "@fortawesome/free-brands-svg-icons";
 
 const ProjectCard = (props) => {
 
@@ -52,6 +52,7 @@ const ProjectCard = (props) => {
                   {props.language === 'Python' && <FontAwesomeIcon icon={faPython} className="lang-icon"/>}
                   {props.language === 'Angular' && <FontAwesomeIcon icon={faAngular} className="lang-icon"/>}
                   {props.language === 'Java' && <FontAwesomeIcon icon={faJava} className="lang-icon"/>}
+                  {props.language === 'Typescript' && <FontAwesomeIcon icon={faTypescript} className="lang-icon"/>}
                 </>
               )}
             </div>

@@ -13,36 +13,48 @@ const AboutResp = () => {
 
       <div className="bio-card-text-resp">
         <span className="about-me-desc-resp">
-          <span className="hi">Hi!</span> My name is Kyle, and I am a proficient Full Stack Developer with three years of expertise in the fintech industry. I specialize in creating seamless, high-quality digital experiences for high-profile clients and their customers.
+          <span className="hi">Hi!</span> My name is Kyle. I'm a Full Stack
+          Developer with three years of experience building software for the
+          fintech industry. I've worked with major financial clients to create
+          polished, high-performance digital products that people actually use.
           <br />
           <br />
-          I honed my skills at the University of Central Florida, as well as through various personal projects and extensive coursework on Udemy. Currently, I work at Capco, where I focus on building accessible, dynamic, and inclusive products for various financial clients, leveraging a broad range of technologies to deliver top-tier solutions.
+          My foundation comes from UCF and years of self-directed learning
+          through personal projects and coursework. Right now, I'm at Capco,
+          where I build accessible, scalable web applications for financial
+          services companies.
           <br />
           <br />
           Tech I have been working with recently:
           <br />
           <br />
-          <ul className="tech-resp">
-            <li>React</li>
-            <li>Angular</li>
-            <li>Javascript</li>
-            <li>Typescript</li>
-            <li>Python</li>
-            <li>Node.js</li>
-            <li>MongoDB</li>
-            <li>MySQL</li>
-            <li>Java</li>
-            <li>Adobe Experience Manager</li>
-            <li>Adobe Target</li>
-            <li>VIM</li>
-            <li>VSCode</li>
-            <li>IntelliJ</li>
-            <li>Github</li>
-            <li>Github Copilot</li>
-            <li>ChatGPT</li>
-            <li>Claude</li>
-            <li>Perplexity</li>
-          </ul>
+          <div className="tech-stack-resp">
+            <p className="tech-label-resp">
+              <strong>Tech Stack</strong>
+            </p>
+            <div className="tech-grid-resp">
+              <div className="tech-row-resp">
+                <span className="tech-cat-resp">Frontend</span>
+                <span className="tech-items-resp">
+                  React · Angular · TypeScript · JavaScript
+                </span>
+              </div>
+              <div className="tech-row-resp">
+                <span className="tech-cat-resp">Backend</span>
+                <span className="tech-items-resp">Node.js · Python · Java</span>
+              </div>
+              <div className="tech-row-resp">
+                <span className="tech-cat-resp">Database</span>
+                <span className="tech-items-resp">MongoDB · MySQL</span>
+              </div>
+              <div className="tech-row-resp">
+                <span className="tech-cat-resp">Tools</span>
+                <span className="tech-items-resp">
+                  AEM · Adobe Target · VS Code · IntelliJ · VIM · GitHub
+                </span>
+              </div>
+            </div>
+          </div>
         </span>
       </div>
     </div>
